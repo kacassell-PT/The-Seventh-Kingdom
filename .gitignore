@@ -1,0 +1,28 @@
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+
+# Temporary and generated files
+*.tmp
+*.temp
+*.bak
+*.log
+.cache/
+tmp/
+
+# Office lock files
+~$*
+
+# Exported manuscript artifacts
+exports/
+build/
+dist/
+
+# Secrets
+.env
+.env.*
+!.env.example
