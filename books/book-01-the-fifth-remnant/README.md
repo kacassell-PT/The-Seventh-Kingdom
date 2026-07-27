@@ -2,11 +2,11 @@
 
 This directory is the working home for Book One of **The Seventh Kingdom**.
 
-## Suggested organization
+## Workflow
 
-- `00-book-brief.md` — purpose, promise, audience, and governing constraints
-- `01-chapter-title.md` onward — sequential manuscript chapters
-- `outline/` — chapter and scene planning
-- `notes/` — book-specific development notes that are not manuscript prose
+- [`manuscript/`](manuscript/) — active sequential chapter drafts
+- [`editor-notes/`](editor-notes/) — developmental, line-edit, and continuity notes
+- [`revisions/`](revisions/) — alternate and revision-stage chapter files
+- [`final/`](final/) — Founder-approved, publication-ready material
 
 Nothing in this directory becomes established series canon merely by being drafted. Record approved continuity decisions in [`../../canon/`](../../canon/).

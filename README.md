@@ -1,14 +1,22 @@
 # The Seventh Kingdom
 
-A governed workspace for developing Karl A. Cassell's seven-book speculative Christian epic, **The Seventh Kingdom**.
+The professional story-studio and publishing workspace for Karl A. Cassell's seven-book speculative Christian epic, **The Seventh Kingdom**.
 
 ## Repository map
 
-- [`books/`](books/) — novel manuscripts and book-specific planning
-- [`series-bible/`](series-bible/) — shared world, character, chronology, and thematic references
+- [`books/`](books/) — novel manuscripts and book-specific editorial workflows
 - [`canon/`](canon/) — canon registry and governing decisions
+- [`showrunner/`](showrunner/) — series architecture, continuity, mysteries, and cross-book planning
+- [`testament-of-light/`](testament-of-light/) — materials specific to the Testament of Light
 - [`research/`](research/) — historical, technical, cultural, and theological research
-- [`production/`](production/) — publishing and adaptation materials
+- [`artwork/`](artwork/) — cover and visual development
+- [`maps/`](maps/) — geographic and location-reference maps
+- [`screenplay/`](screenplay/) — screen adaptations and development
+
+## Supporting studio directories
+
+- [`series-bible/`](series-bible/) — shared character, world, chronology, and thematic references
+- [`production/`](production/) — publishing, editorial, marketing, and adaptation operations
 
 ## Current book
 
