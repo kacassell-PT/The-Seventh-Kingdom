@@ -12,6 +12,7 @@ The professional story-studio and publishing workspace for Karl A. Cassell's sev
 - [`artwork/`](artwork/) — cover and visual development
 - [`maps/`](maps/) — geographic and location-reference maps
 - [`screenplay/`](screenplay/) — screen adaptations and development
+- [`marketing/`](marketing/) — positioning, publishing, launch, media, podcast, website, and social assets
 
 ## Supporting studio directories
 
