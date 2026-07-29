@@ -17,6 +17,7 @@ This index registers governed series documents and their current status. The pri
 | `canon/CANON.md` | Canon authority and workflow | Canon | 2026-07-28 | Public authority boundary and promotion rules |
 | `canon/SERIES_BIBLE.md` | Series identity, world, ensemble, themes, spine | Exploratory | 2026-07-28 | Source-based synthesis; unresolved material remains open |
 | `showrunner/SHOWRUNNER-STRUCTURE.md` | Story OS control tower and workflow | Exploratory | 2026-07-28 | Coordinates domains without becoming canon |
+| `showrunner/MASTER_CHARACTER_BIBLE.md` | The Twelve, principal character architecture, relationship engine, and character law | Exploratory | 2026-07-28 | Founder-supplied development; titles, callings, wounds, and mysteries require reconciliation and promotion |
 | `series-bible/characters/CHARACTER-ARC-FRAMEWORK.md` | Character arc design and review | Exploratory | 2026-07-28 | Framework only; individual arcs remain status-controlled |
 | `series-bible/timeline/TIMELINE-FRAMEWORK.md` | Chronology, causality, and knowledge tracking | Exploratory | 2026-07-28 | Final-seven-years sequence remains unresolved |
 | `testament-of-light/TESTAMENT-OF-LIGHT-FRAMEWORK.md` | Testament development constraints and ledger | Exploratory | 2026-07-28 | Open Question #4 remains Founder-gated |

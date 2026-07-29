@@ -2,6 +2,13 @@
 
 Append approved canon decisions here. Do not rewrite previous entries; add a dated entry with the decision, rationale, affected documents, and approving authority.
 
+## 2026-07-28 — Master Character Bible added for review
+
+- **Decision:** Add `showrunner/MASTER_CHARACTER_BIBLE.md` as an Exploratory showrunner control document preserving Founder-supplied development for the Twelve, Naomi Vale, Noah Carter, Solomon Vey, ORACLE, the Gardener, Character Law, the Relationship Engine, and the series question “Whose image do you bear?”
+- **Rationale:** Establish the requested character architecture in the Story OS while distinguishing proposed titles, wounds, trajectories, and mysteries from higher-status identity claims in the private Kingdom Archives.
+- **Affected:** `showrunner/MASTER_CHARACTER_BIBLE.md`, `showrunner/README.md`, `canon/CANON-INDEX.md`.
+- **Authority:** Development supplied by Karl A. Cassell, Founder; organized and admitted as Exploratory by Silas. Promotion and reconciliation with the Twelve’s virtue grid and Open Development Questions #1, #3, #7, and #10 remain reserved to Karl A. Cassell.
+
 ## 2026-07-28 — Phase I Constitution source sections archived
 
 - **Decision:** Extract the live ChatGPT Phase I material into seven governed public-workspace documents under `constitution/`: Mission, Vision, Values, The Seventh Kingdom Constitution, Theological Constitution, Creative Constitution, and Canon Rules.
