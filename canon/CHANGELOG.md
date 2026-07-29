@@ -2,6 +2,13 @@
 
 Append approved canon decisions here. Do not rewrite previous entries; add a dated entry with the decision, rationale, affected documents, and approving authority.
 
+## 2026-07-28 — Story OS foundation established
+
+- **Decision:** Add the public Story OS foundation: Story Constitution, Canon Rules, Showrunner Structure, Series Bible, Character Arc Framework, Timeline Framework, and Testament of Light Framework.
+- **Rationale:** Create one usable operating layer for story development while preserving the private Kingdom Archives as the authoritative canon source and keeping unresolved Founder decisions open.
+- **Affected:** `canon/CONSTITUTION.md`, `canon/CANON.md`, `canon/SERIES_BIBLE.md`, `showrunner/SHOWRUNNER-STRUCTURE.md`, `series-bible/characters/CHARACTER-ARC-FRAMEWORK.md`, `series-bible/timeline/TIMELINE-FRAMEWORK.md`, `testament-of-light/TESTAMENT-OF-LIGHT-FRAMEWORK.md`, `canon/CANON-INDEX.md`.
+- **Authority:** Structure requested by Karl A. Cassell and implemented by Silas; canon promotion, constitutional amendment, and unresolved narrative/theological rulings remain reserved to Karl A. Cassell.
+
 ## 2026-07-27 — Repository scaffold
 
 - **Decision:** Create the organizational framework for books, the series bible, canon records, research, and production.
