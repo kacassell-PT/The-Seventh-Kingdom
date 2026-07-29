@@ -6,6 +6,7 @@ The professional story-studio and publishing workspace for Karl A. Cassell's sev
 
 - [`books/`](books/) — novel manuscripts and book-specific editorial workflows
 - [`canon/`](canon/) — canon registry and governing decisions
+- [`constitution/`](constitution/) — Phase I mission, vision, values, constitutional proposals, and canon-rule source material
 - [`showrunner/`](showrunner/) — series architecture, continuity, mysteries, and cross-book planning
 - [`testament-of-light/`](testament-of-light/) — materials specific to the Testament of Light
 - [`research/`](research/) — historical, technical, cultural, and theological research

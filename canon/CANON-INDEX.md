@@ -20,6 +20,7 @@ This index registers governed series documents and their current status. The pri
 | `series-bible/characters/CHARACTER-ARC-FRAMEWORK.md` | Character arc design and review | Exploratory | 2026-07-28 | Framework only; individual arcs remain status-controlled |
 | `series-bible/timeline/TIMELINE-FRAMEWORK.md` | Chronology, causality, and knowledge tracking | Exploratory | 2026-07-28 | Final-seven-years sequence remains unresolved |
 | `testament-of-light/TESTAMENT-OF-LIGHT-FRAMEWORK.md` | Testament development constraints and ledger | Exploratory | 2026-07-28 | Open Question #4 remains Founder-gated |
+| `constitution/*.md` | Phase I Mission, Vision, Values, constitutional proposals, and source canon rules | Exploratory | 2026-07-28 | Extracted from live ChatGPT conversation; Founder adoption required |
 | `marketing/*.md` | Public-facing development assets | Administrative | 2026-07-27 | Not a source of story canon |
 
 > Administrative files organize the project but do not establish story canon.

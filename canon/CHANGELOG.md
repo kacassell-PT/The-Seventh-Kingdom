@@ -2,6 +2,13 @@
 
 Append approved canon decisions here. Do not rewrite previous entries; add a dated entry with the decision, rationale, affected documents, and approving authority.
 
+## 2026-07-28 — Phase I Constitution source sections archived
+
+- **Decision:** Extract the live ChatGPT Phase I material into seven governed public-workspace documents under `constitution/`: Mission, Vision, Values, The Seventh Kingdom Constitution, Theological Constitution, Creative Constitution, and Canon Rules.
+- **Rationale:** Preserve the complete constitutional development sections in their requested repository folder while reconciling conflicting terms such as “Locked Canon” and “Working Canon” to the binding private Canon Governance Charter.
+- **Affected:** `constitution/MISSION.md`, `constitution/VISION.md`, `constitution/VALUES.md`, `constitution/THE_SEVENTH_KINGDOM_CONSTITUTION.md`, `constitution/THEOLOGICAL_CONSTITUTION.md`, `constitution/CREATIVE_CONSTITUTION.md`, `constitution/CANON_RULES.md`, `README.md`, `canon/CANON-INDEX.md`.
+- **Authority:** Source conversation directed by Karl A. Cassell; extracted and organized as Exploratory by Silas. Founder adoption, constitutional amendment, theological rulings, and canon promotion remain reserved to Karl A. Cassell.
+
 ## 2026-07-28 — Story OS foundation established
 
 - **Decision:** Add the public Story OS foundation: Story Constitution, Canon Rules, Showrunner Structure, Series Bible, Character Arc Framework, Timeline Framework, and Testament of Light Framework.
