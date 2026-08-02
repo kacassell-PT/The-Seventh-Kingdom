@@ -20,11 +20,20 @@ The professional story-studio and publishing workspace for Karl A. Cassell's sev
 - [`maps/`](maps/) — geographic and location-reference maps
 - [`screenplay/`](screenplay/) — screen adaptations and development
 - [`marketing/`](marketing/) — positioning, publishing, launch, media, podcast, website, and social assets
+- [`writers-room/`](writers-room/) — meetings, questions, proposals, decision records, and parking-lot material
+- [`adaptations/`](adaptations/) — television, film, graphic-novel, VR, gaming, and podcast development
+- [`franchise/`](franchise/) — licensing, merchandise, and franchise-specific marketing
+- [`legacy/`](legacy/) — long-range reader experience, symbols, questions, and spiritual-journey proposals
+- [`00-governance/`](00-governance/) — retained package source artifact; not the governing public canon folder
 
 ## Supporting studio directories
 
 - [`series-bible/`](series-bible/) — shared character, world, chronology, and thematic references
 - [`production/`](production/) — publishing, editorial, marketing, and adaptation operations
+
+## Package record
+
+- [`PACKAGE_MANIFEST.md`](PACKAGE_MANIFEST.md) — inventory and recovery limits of the imported ChatGPT package
 
 ## Current book
 

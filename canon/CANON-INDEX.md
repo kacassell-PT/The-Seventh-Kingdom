@@ -34,5 +34,17 @@ This index registers governed series documents and their current status. The pri
 | `books/book-01-the-fifth-remnant/manuscript/chapter-05.md` | Book One recovered source — *The Custodians* | Manuscript draft | 2026-08-01 | Exact standalone source recovered; Founder approval status not inferred |
 | `books/book-01-the-fifth-remnant/manuscript/chapter-06.md` | Book One recovered source — *The Shepherd* | Manuscript draft | 2026-08-01 | Exact standalone source recovered; Founder approval status not inferred |
 | `books/book-01-the-fifth-remnant/manuscript/chapter-07.md` | Book One recovered source — *The Road West* | Manuscript draft | 2026-08-01 | Exact standalone source recovered; Founder approval status not inferred |
+| `showrunner/KINGDOM_DENSITY.md` | Chapter-level Kingdom-presence test | Exploratory | 2026-08-01 | Package proposal; Founder adoption required |
+| `showrunner/THE_SEVEN_BOOK_BLUEPRINT.md` | Alternate seven-book thematic blueprint | Exploratory | 2026-08-01 | Conflicts with governed outline vocabulary; retained for comparison |
+| `legacy/*.md` | Legacy, symbols, reader experience, spiritual journey, and great questions | Exploratory | 2026-08-01 | Package development material; not promoted |
+| `writers-room/story-decisions/2026-08-01-story-os-decisions.md` | Package decision record | Exploratory | 2026-08-01 | Authority and title claims require Founder reconciliation |
+| `books/book-01-the-fifth-remnant/revisions/08-the-builder-superseded-draft.md` | Superseded early Chapter Eight draft | Deprecated manuscript draft | 2026-08-01 | Retained for provenance; must not replace revised Chapter Eight |
+| `books/book-01-the-fifth-remnant/source-material/chapter-06-conversation-export.txt` | Raw Chapter Six conversation export | Source artifact | 2026-08-01 | Not independently canonical |
+| `00-governance/The_Seventh_Kingdom_Master_Project_Document.docx` | Package copy of Master Project Document | Source artifact | 2026-08-01 | Private archive Markdown/governance remains authoritative |
+| `research/*/README.md` | Research-domain navigation | Administrative | 2026-08-01 | No research claims added |
+| `adaptations/*/README.md` | Adaptation-domain navigation | Administrative | 2026-08-01 | No adaptation claims added |
+| `franchise/*/README.md` | Franchise-domain navigation | Administrative | 2026-08-01 | No licensing or merchandise approval implied |
+| `writers-room/*/README.md` | Writers' Room navigation | Administrative | 2026-08-01 | Proposals do not establish canon |
+| `PACKAGE_MANIFEST.md` | Imported package inventory and recovery limits | Administrative | 2026-08-01 | Placeholder warnings preserved; placeholders not imported |
 
 > Administrative files organize the project but do not establish story canon.

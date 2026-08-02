@@ -8,6 +8,8 @@ This directory coordinates the seven-book story studio: series architecture, cha
 - [`SHOWRUNNER-STRUCTURE.md`](SHOWRUNNER-STRUCTURE.md) — Story OS control tower
 - [`MASTER_CHARACTER_BIBLE.md`](MASTER_CHARACTER_BIBLE.md) — master character architecture, the Twelve, relationship engine, and character law
 - [`SERIES_PLAN.md`](SERIES_PLAN.md) — seven-book planning view
+- [`THE_SEVEN_BOOK_BLUEPRINT.md`](THE_SEVEN_BOOK_BLUEPRINT.md) — alternate package blueprint retained for comparison and Founder review
+- [`KINGDOM_DENSITY.md`](KINGDOM_DENSITY.md) — proposed chapter-level test for lived Kingdom presence
 - [`CONTINUITY_LEDGER.md`](CONTINUITY_LEDGER.md) — cross-document facts and dependencies
 - [`MYSTERY_TRACKER.md`](MYSTERY_TRACKER.md) — clues, reveals, and protected answers
 - [`DECISION_QUEUE.md`](DECISION_QUEUE.md) — Founder decisions that unlock downstream work

@@ -2,6 +2,13 @@
 
 Append approved canon decisions here. Do not rewrite previous entries; add a dated entry with the decision, rationale, affected documents, and approving authority.
 
+## 2026-08-01 — Complete ChatGPT package expansion imported
+
+- **Decision:** Import the non-conflicting contents of the generated Story OS package, including the alternate seven-book blueprint, Kingdom Density proposal, legacy documents, Writers' Room structure and decision record, adaptation and franchise folders, research-domain folders, the Master Project Document source copy, Chapter Six conversation export, and superseded early Chapter Eight draft.
+- **Rationale:** Preserve the recoverable Story OS and manuscript provenance in the appropriate repository domains without overwriting stronger existing public files, importing manuscript placeholders, or allowing package language to silently supersede the governed private archive.
+- **Affected:** `showrunner/KINGDOM_DENSITY.md`, `showrunner/THE_SEVEN_BOOK_BLUEPRINT.md`, `legacy/`, `writers-room/`, `adaptations/`, `franchise/`, research subfolders, `00-governance/`, `PACKAGE_MANIFEST.md`, Book One `source-material/` and `revisions/`, root navigation, Showrunner navigation, and Canon Index.
+- **Authority:** Package generation and import requested by Karl A. Cassell; organized and reconciled by Silas. Canon promotion, title reconciliation, and adoption of Story OS decisions remain reserved to Karl A. Cassell.
+
 ## 2026-08-01 — Book One recovered sources and domain folders transferred
 
 - **Decision:** Transfer exact recovered standalone source text for Book One Chapters Four through Seven into the manuscript workflow; add the requested character, organization, technology, theology, prophecy, and timeline domain folders; and record unavailable chapter sources without fabricating replacements.
