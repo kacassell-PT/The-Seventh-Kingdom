@@ -1,13 +1,16 @@
-# Characters
+# Character Directory
 
-Public character-reference workspace for **The Seventh Kingdom**.
+This is the requested public character-profile directory.
 
-Character material inherits its authority from [`../canon/CANON.md`](../canon/CANON.md). A biography, wound, title, prophecy role, relationship, quotation, or final fate is not canon merely because it appears here.
+## Profiles
 
-## Current authoritative working references
+- [Elijah Cross](elijah-cross.md)
+- [Marcus Reed](marcus-reed.md)
+- [Michael Tesfaye](michael-tesfaye.md)
+- [Nathaniel Cole](nathaniel-cole.md)
+- [Solomon Vey](solomon-vey.md)
+- [ORACLE](oracle.md)
 
-- [`../showrunner/MASTER_CHARACTER_BIBLE.md`](../showrunner/MASTER_CHARACTER_BIBLE.md)
-- [`../series-bible/characters/`](../series-bible/characters/)
-- [`../canon/characters/`](../canon/characters/)
+These files synthesize established identity statements and Founder-supplied development. They remain Exploratory unless a specific claim is registered at a higher status in the governed private archive.
 
-Use this folder for approved public-facing character files as they are developed. Keep proposals clearly marked Exploratory.
+Additional characters should use `canon/characters/CHARACTER_TEMPLATE.md` once that draft is reviewed and adopted.

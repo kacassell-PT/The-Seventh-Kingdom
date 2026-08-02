@@ -2,6 +2,13 @@
 
 Append approved canon decisions here. Do not rewrite previous entries; add a dated entry with the decision, rationale, affected documents, and approving authority.
 
+## 2026-08-02 — Requested 7th-kingdom-series structure projected into public workspace
+
+- **Decision:** Add the requested `books/book-01/`, `codex/`, `worldbuilding/`, principal character profiles, lowercase showrunner controls, marketing package files, and proprietary LICENSE to the existing `The-Seventh-Kingdom` repository.
+- **Rationale:** Provide the requested professional series structure without creating another competing repository, overwriting the established Story OS, fabricating missing chapters, or silently promoting synthesized doctrine and character development.
+- **Affected:** `books/book-01/`, `codex/`, `worldbuilding/`, `characters/`, requested `showrunner/` files, `marketing/`, `LICENSE`, root and domain navigation, Canon Index.
+- **Authority:** Structure requested by Karl A. Cassell and implemented by Silas. Canon promotion, theological adoption, Consensus creed adoption, final title relationship, and unresolved story decisions remain reserved to Karl A. Cassell.
+
 ## 2026-08-01 — Complete ChatGPT package expansion imported
 
 - **Decision:** Import the non-conflicting contents of the generated Story OS package, including the alternate seven-book blueprint, Kingdom Density proposal, legacy documents, Writers' Room structure and decision record, adaptation and franchise folders, research-domain folders, the Master Project Document source copy, Chapter Six conversation export, and superseded early Chapter Eight draft.

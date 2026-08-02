@@ -46,5 +46,14 @@ This index registers governed series documents and their current status. The pri
 | `franchise/*/README.md` | Franchise-domain navigation | Administrative | 2026-08-01 | No licensing or merchandise approval implied |
 | `writers-room/*/README.md` | Writers' Room navigation | Administrative | 2026-08-01 | Proposals do not establish canon |
 | `PACKAGE_MANIFEST.md` | Imported package inventory and recovery limits | Administrative | 2026-08-01 | Placeholder warnings preserved; placeholders not imported |
+| `books/book-01/*.md` and `books/book-01/chapters/` | Requested Book One compatibility view | Administrative / Manuscript draft copies | 2026-08-02 | Chapters 4–7 byte-identical to recovered drafts; no missing-source placeholders |
+| `codex/consensus/*.md` | Consensus doctrine development | Exploratory | 2026-08-02 | Synthesized from established premise; creed and doctrines require Founder review |
+| `codex/testament-of-light/*.md` | Testament fragment ledger and commentary method | Exploratory | 2026-08-02 | No new fragment text invented; Open Question #4 remains blocking |
+| `codex/theology/*.md` | Seven Kingdom, Remnant, and Kingdom philosophy | Exploratory | 2026-08-02 | Theological review and Founder adoption required |
+| `characters/*.md` | Requested principal character profiles | Exploratory | 2026-08-02 | Identity sourced; psychology and trajectories remain proposals |
+| `worldbuilding/*/README.md` | Requested worldbuilding domains | Administrative | 2026-08-02 | No world facts promoted |
+| `showrunner/story-bible.md` and requested lowercase controls | Story, adaptation, themes, symbols, foreshadowing, and timeline views | Exploratory | 2026-08-02 | Operational projections; existing uppercase controls remain primary public references |
+| `marketing/pitch.md`, `synopsis.md`, `publisher-package.md` | Marketing and publisher-development assets | Administrative | 2026-08-02 | Not story canon; incomplete manuscript boundaries explicit |
+| `LICENSE` | Proprietary rights notice | Administrative | 2026-08-02 | All rights reserved; no public reuse license granted |
 
 > Administrative files organize the project but do not establish story canon.

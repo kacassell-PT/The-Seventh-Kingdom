@@ -13,5 +13,12 @@ This directory coordinates the seven-book story studio: series architecture, cha
 - [`CONTINUITY_LEDGER.md`](CONTINUITY_LEDGER.md) — cross-document facts and dependencies
 - [`MYSTERY_TRACKER.md`](MYSTERY_TRACKER.md) — clues, reveals, and protected answers
 - [`DECISION_QUEUE.md`](DECISION_QUEUE.md) — Founder decisions that unlock downstream work
+- [`story-bible.md`](story-bible.md) — compact requested story-bible view
+- [`season-1-outline.md`](season-1-outline.md) — adaptation gates and proposed season movement
+- [`book-1-outline.md`](book-1-outline.md) — Book One story obligations and recovery boundary
+- [`themes.md`](themes.md) — thematic control file
+- [`symbolism.md`](symbolism.md) — protected symbolic language
+- [`foreshadowing.md`](foreshadowing.md) — setup, reveal, and payoff ledger
+- [`master-timeline.md`](master-timeline.md) — requested chronology view
 
 Administrative planning here does not establish canon. Approved story decisions must be registered in [`../canon/`](../canon/).

@@ -15,6 +15,9 @@ Marketing material is not a source of story canon. Every factual story claim, ch
 - [`launch-plan.md`](launch-plan.md) — release strategy and milestones
 - [`podcast.md`](podcast.md) — podcast concepts and episode planning
 - [`social-media.md`](social-media.md) — platform strategy and campaign assets
+- [`pitch.md`](pitch.md) — current project positioning and logline
+- [`synopsis.md`](synopsis.md) — honest synopsis framework pending complete manuscript recovery
+- [`publisher-package.md`](publisher-package.md) — publisher-submission package and readiness gates
 
 ## Approval rule
 
