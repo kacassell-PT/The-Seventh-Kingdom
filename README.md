@@ -6,8 +6,14 @@ The professional story-studio and publishing workspace for Karl A. Cassell's sev
 
 - [`books/`](books/) — novel manuscripts and book-specific editorial workflows
 - [`canon/`](canon/) — canon registry and governing decisions
-- [`constitution/`](constitution/) — Phase I mission, vision, values, constitutional proposals, and canon-rule source material
+- [`characters/`](characters/) — public character-reference workspace
+- [`organizations/`](organizations/) — institutions, factions, and groups
+- [`technology/`](technology/) — technical systems and capability rules
+- [`theology/`](theology/) — biblical and theological reference
+- [`prophecy/`](prophecy/) — prophecy claims, interpretations, and reveal boundaries
+- [`timelines/`](timelines/) — chronology and continuity timelines
 - [`showrunner/`](showrunner/) — series architecture, continuity, mysteries, and cross-book planning
+- [`constitution/`](constitution/) — Phase I mission, vision, values, constitutional proposals, and canon-rule source material
 - [`testament-of-light/`](testament-of-light/) — materials specific to the Testament of Light
 - [`research/`](research/) — historical, technical, cultural, and theological research
 - [`artwork/`](artwork/) — cover and visual development

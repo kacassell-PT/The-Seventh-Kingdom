@@ -2,6 +2,13 @@
 
 Append approved canon decisions here. Do not rewrite previous entries; add a dated entry with the decision, rationale, affected documents, and approving authority.
 
+## 2026-08-01 — Book One recovered sources and domain folders transferred
+
+- **Decision:** Transfer exact recovered standalone source text for Book One Chapters Four through Seven into the manuscript workflow; add the requested character, organization, technology, theology, prophecy, and timeline domain folders; and record unavailable chapter sources without fabricating replacements.
+- **Rationale:** Preserve every source that can be verified from the live ChatGPT Writers' Room and generated recovery package while maintaining an honest distinction between manuscript prose, development notes, placeholders, and unrecovered material.
+- **Affected:** `books/book-01-the-fifth-remnant/manuscript/chapter-04.md` through `chapter-07.md`, `books/book-01-the-fifth-remnant/TRANSFER-MANIFEST.md`, `characters/`, `organizations/`, `technology/`, `theology/`, `prophecy/`, `timelines/`, root navigation, and Canon Index.
+- **Authority:** Transfer requested by Karl A. Cassell and executed by Silas. Exact source recovery does not by itself establish Founder approval or Locked Canon status.
+
 ## 2026-07-28 — Master Character Bible added for review
 
 - **Decision:** Add `showrunner/MASTER_CHARACTER_BIBLE.md` as an Exploratory showrunner control document preserving Founder-supplied development for the Twelve, Naomi Vale, Noah Carter, Solomon Vey, ORACLE, the Gardener, Character Law, the Relationship Engine, and the series question “Whose image do you bear?”
