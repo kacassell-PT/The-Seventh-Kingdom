@@ -10,5 +10,6 @@ Use numbered filenames such as `01-chapter-title.md`. Draft prose remains subjec
 - `chapter-05.md` — *The Custodians*
 - `chapter-06.md` — *The Shepherd*
 - `chapter-07.md` — *The Road West*
+- `chapter-17.md` — *The Physician*
 
 See [`../TRANSFER-MANIFEST.md`](../TRANSFER-MANIFEST.md) before assuming any other chapter is present or approved.

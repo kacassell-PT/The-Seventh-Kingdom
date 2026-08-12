@@ -2,6 +2,13 @@
 
 Append approved canon decisions here. Do not rewrite previous entries; add a dated entry with the decision, rationale, affected documents, and approving authority.
 
+## 2026-08-11 — Chapter Seventeen and formation principle admitted for development
+
+- **Decision:** Add Karl's supplied ChatGPT text for Book One Chapter Seventeen, *The Physician*, to the active manuscript workflow; preserve its complete source and pre-chapter showrunner note; and admit the awakening-to-formation threshold and wound grid as an Exploratory showrunner control.
+- **Rationale:** Preserve and organize the new chapter without fabricating the missing Chapter Sixteen, treating GitHub placement as canon promotion, or silently resolving conflicts involving the Twelve, Continuity, or *The Testament of Light*.
+- **Affected:** `books/book-01-the-fifth-remnant/manuscript/chapter-17.md`, `books/book-01-the-fifth-remnant/source-material/chapter-17-chatgpt-source.md`, `books/book-01-the-fifth-remnant/TRANSFER-MANIFEST.md`, Book One navigation, `books/book-01/outline.md`, `showrunner/FORMATION_PRINCIPLE_AND_WOUND_GRID.md`, Showrunner navigation, and Canon Index.
+- **Authority:** Chapter and development source supplied by Karl A. Cassell; archival placement, Markdown normalization, dependency review, and Exploratory classification executed by Silas. Manuscript approval, canon promotion, membership in the Twelve, and theological/narrative rulings remain reserved to Karl A. Cassell.
+
 ## 2026-08-02 — Requested 7th-kingdom-series structure projected into public workspace
 
 - **Decision:** Add the requested `books/book-01/`, `codex/`, `worldbuilding/`, principal character profiles, lowercase showrunner controls, marketing package files, and proprietary LICENSE to the existing `The-Seventh-Kingdom` repository.

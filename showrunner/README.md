@@ -7,6 +7,7 @@ This directory coordinates the seven-book story studio: series architecture, cha
 - [`SHOWRUNNER_BIBLE.md`](SHOWRUNNER_BIBLE.md) — operating standards and review workflow
 - [`SHOWRUNNER-STRUCTURE.md`](SHOWRUNNER-STRUCTURE.md) — Story OS control tower
 - [`MASTER_CHARACTER_BIBLE.md`](MASTER_CHARACTER_BIBLE.md) — master character architecture, the Twelve, relationship engine, and character law
+- [`FORMATION_PRINCIPLE_AND_WOUND_GRID.md`](FORMATION_PRINCIPLE_AND_WOUND_GRID.md) — Chapter Seventeen's proposed awakening-to-formation threshold and wounds-of-the-Twelve architecture
 - [`SERIES_PLAN.md`](SERIES_PLAN.md) — seven-book planning view
 - [`THE_SEVEN_BOOK_BLUEPRINT.md`](THE_SEVEN_BOOK_BLUEPRINT.md) — alternate package blueprint retained for comparison and Founder review
 - [`KINGDOM_DENSITY.md`](KINGDOM_DENSITY.md) — proposed chapter-level test for lived Kingdom presence

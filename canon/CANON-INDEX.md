@@ -55,5 +55,8 @@ This index registers governed series documents and their current status. The pri
 | `showrunner/story-bible.md` and requested lowercase controls | Story, adaptation, themes, symbols, foreshadowing, and timeline views | Exploratory | 2026-08-02 | Operational projections; existing uppercase controls remain primary public references |
 | `marketing/pitch.md`, `synopsis.md`, `publisher-package.md` | Marketing and publisher-development assets | Administrative | 2026-08-02 | Not story canon; incomplete manuscript boundaries explicit |
 | `LICENSE` | Proprietary rights notice | Administrative | 2026-08-02 | All rights reserved; no public reuse license granted |
+| `books/book-01-the-fifth-remnant/manuscript/chapter-17.md` | Book One supplied source — *The Physician* | Manuscript draft | 2026-08-11 | Complete ChatGPT chapter supplied by Karl; formatting normalized; approval and canon status not inferred |
+| `books/book-01-the-fifth-remnant/source-material/chapter-17-chatgpt-source.md` | ChatGPT source for Chapter Seventeen and its pre-chapter showrunner note | Source artifact | 2026-08-11 | Preserves provenance and development context; not independently canonical |
+| `showrunner/FORMATION_PRINCIPLE_AND_WOUND_GRID.md` | Awakening-to-formation threshold and proposed wounds of the Twelve | Exploratory | 2026-08-11 | Reconciles source wording and flags Twelve, Continuity, Testament, and theological dependencies |
 
 > Administrative files organize the project but do not establish story canon.

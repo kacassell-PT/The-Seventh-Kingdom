@@ -36,6 +36,8 @@ Book One should make the Consensus credible and attractive, reveal the first hum
 | 13 | The Choice | Missing exact standalone source |
 | 14 | The Fourth Name | Missing exact standalone source |
 | 15 | The Archivist | Missing exact standalone source |
+| 16 | Unknown | Exact source not supplied |
+| 17 | The Physician | Complete source supplied by Karl from ChatGPT; active manuscript draft added |
 
 ## Historical Consequences
 
@@ -43,7 +45,7 @@ The requested Book One structure becomes usable without creating a competing or 
 
 ## Narrative Payoffs
 
-Recovered chapter titles and missing-source boundaries clarify where character and mystery analysis can proceed confidently.
+Recovered chapter titles and missing-source boundaries clarify where character and mystery analysis can proceed confidently. Chapter Seventeen opens the Physician and Continuity formation thread without filling the Chapter Sixteen gap.
 
 ## Production Notes
 
