@@ -6,6 +6,7 @@ The professional story-studio and publishing workspace for Karl A. Cassell's sev
 
 - [`books/`](books/) — novel manuscripts and book-specific editorial workflows
 - [`books/book-01/`](books/book-01/) — requested Book One compatibility view; exact prose only where recovered
+- [`chapters/`](chapters/) — top-level navigation to active and compatibility chapter directories
 - [`canon/`](canon/) — canon registry and governing decisions
 - [`codex/`](codex/) — Consensus doctrine, Testament commentary, and theological development
 - [`characters/`](characters/) — public character-reference workspace
