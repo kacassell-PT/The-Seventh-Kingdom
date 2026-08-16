@@ -9,6 +9,13 @@ Append approved canon decisions here. Do not rewrite previous entries; add a dat
 - **Affected:** `chapters/chapter-01.md` through `chapters/chapter-19.md`, excluding unavailable Chapter Eighteen; `chapters/chapter-08-superseded-draft.md`; `chapters/README.md`; Book One Transfer Manifest; `canon/CANON-INDEX.md`.
 - **Authority:** Placement requested by Karl A. Cassell and executed by Silas. Manuscript status, chapter revisions, canon promotion, and the missing Chapter Eighteen source remain subject to Founder authority.
 
+## 2026-08-15 — Chapters Twenty and Twenty-One recovered and placed
+
+- **Decision:** Recover complete narrative prose for Chapters Twenty and Twenty-One from the authenticated ChatGPT conversation; place both in the active Book One manuscript, top-level `chapters/`, and compatibility chapter paths; preserve source context separately.
+- **Rationale:** Extend the requested chapter collection through Chapter Twenty-One while preserving exact source boundaries, keeping the Chapter Eighteen gap explicit, and avoiding silent resolution of Chapter Twenty-One's duplicate title *The Empty Chair*.
+- **Affected:** `chapters/chapter-20.md`, `chapters/chapter-21.md`, `books/book-01-the-fifth-remnant/manuscript/chapter-20.md`, `books/book-01-the-fifth-remnant/manuscript/chapter-21.md`, source artifacts, Book One navigation, Transfer Manifest, compatibility outline, and Canon Index.
+- **Authority:** Placement requested by Karl A. Cassell and executed by Silas. Chapter titles, manuscript approval, canon promotion, and the Chapter 19/21 title collision remain subject to Founder review.
+
 ## 2026-08-15 — Chapter Nineteen recovered from ChatGPT and placed in Book One
 
 - **Decision:** Recover the complete Chapter Nineteen, *The Empty Chair*, from the authenticated ChatGPT conversation “The Fifth Remnant”; place its prose in the active Book One manuscript and compatibility chapter path; preserve surrounding showrunner context separately as a source artifact.

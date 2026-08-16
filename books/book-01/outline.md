@@ -40,6 +40,8 @@ Book One should make the Consensus credible and attractive, reveal the first hum
 | 17 | The Physician | Complete source supplied by Karl from ChatGPT; active manuscript draft added |
 | 18 | Unknown | Exact standalone source not recovered; referenced by Chapter Nineteen's source context |
 | 19 | The Empty Chair | Complete source recovered from the authenticated ChatGPT conversation; active manuscript draft added |
+| 20 | The Question ORACLE Could Not Answer | Complete source recovered from the authenticated ChatGPT conversation; active manuscript draft added |
+| 21 | The Empty Chair | Complete source recovered from the authenticated ChatGPT conversation; source title duplicates Chapter 19 and requires Founder review |
 
 ## Historical Consequences
 

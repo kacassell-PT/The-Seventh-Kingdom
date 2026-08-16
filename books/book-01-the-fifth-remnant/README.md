@@ -21,6 +21,8 @@ Verified source text has been recovered or supplied and placed for Chapters Four
 - [`manuscript/chapter-07.md`](manuscript/chapter-07.md) — *The Road West*
 - [`manuscript/chapter-17.md`](manuscript/chapter-17.md) — *The Physician*
 - [`manuscript/chapter-19.md`](manuscript/chapter-19.md) — *The Empty Chair*
+- [`manuscript/chapter-20.md`](manuscript/chapter-20.md) — *The Question ORACLE Could Not Answer*
+- [`manuscript/chapter-21.md`](manuscript/chapter-21.md) — *The Empty Chair* (source title; duplicate of Chapter 19 title, Founder review required)
 
 The unavailable chapters are not represented by invented prose or placeholder files. Their exact recovery state is recorded in the Transfer Manifest.
 
@@ -30,5 +32,7 @@ The unavailable chapters are not represented by invented prose or placeholder fi
 - [`source-material/chapter-06-conversation-export.txt`](source-material/chapter-06-conversation-export.txt) — raw conversation export retained for provenance
 - [`source-material/chapter-17-chatgpt-source.md`](source-material/chapter-17-chatgpt-source.md) — Karl-supplied ChatGPT source preserving the complete pre-chapter showrunner note and chapter text
 - [`source-material/chapter-19-chatgpt-source.md`](source-material/chapter-19-chatgpt-source.md) — ChatGPT source recovered from the authenticated Edge conversation, preserving the complete chapter text and surrounding showrunner context
+- [`source-material/chapter-20-chatgpt-source.md`](source-material/chapter-20-chatgpt-source.md) — ChatGPT source preserving Chapter Twenty and its surrounding showrunner context
+- [`source-material/chapter-21-chatgpt-source.md`](source-material/chapter-21-chatgpt-source.md) — ChatGPT source preserving Chapter Twenty-One; source title collision with Chapter Nineteen is unresolved
 
 Nothing in this directory becomes established series canon merely by being drafted. Record approved continuity decisions in [`../../canon/`](../../canon/).

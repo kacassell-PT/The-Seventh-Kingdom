@@ -8,3 +8,5 @@ No placeholder files are created for unavailable chapters. See [`../outline.md`]
 
 - [Chapter Seventeen — *The Physician*](../../book-01-the-fifth-remnant/manuscript/chapter-17.md)
 - [Chapter Nineteen — *The Empty Chair*](../../book-01-the-fifth-remnant/manuscript/chapter-19.md)
+- [Chapter Twenty — *The Question ORACLE Could Not Answer*](../../book-01-the-fifth-remnant/manuscript/chapter-20.md)
+- [Chapter Twenty-One — *The Empty Chair*](../../book-01-the-fifth-remnant/manuscript/chapter-21.md)

@@ -27,6 +27,8 @@ The original requested fifteen-file sequence and all later supplied chapter sour
 | `chapter-17.md` | Complete chapter supplied by Karl from ChatGPT in Hermes on August 11, 2026 | Added to `manuscript/`; verbatim source and showrunner note retained under `source-material/`; approval/canon status not inferred |
 | `chapter-18.md` | Exact standalone source not recovered; referenced by Chapter Nineteen's surrounding conversation | Not fabricated; remains a source gap |
 | `chapter-19.md` | Complete chapter recovered from the authenticated ChatGPT conversation “The Fifth Remnant” on August 15, 2026 | Added to `manuscript/`; complete wording and showrunner context retained under `source-material/`; approval/canon status not inferred |
+| `chapter-20.md` | Complete chapter recovered from the authenticated ChatGPT conversation “The Fifth Remnant” on August 15, 2026 | Added to `manuscript/`; complete wording and showrunner context retained under `source-material/`; approval/canon status not inferred |
+| `chapter-21.md` | Complete chapter recovered from the authenticated ChatGPT conversation “The Fifth Remnant” on August 15, 2026 | Added to `manuscript/`; complete wording retained under `source-material/`; supplied title duplicates Chapter 19 and requires Founder review |
 
 Placeholder chapter files from the generated ZIP were not imported because they contain recovery notices rather than manuscript prose.
 
@@ -44,3 +46,5 @@ They retain the requested filenames `chapter-04.md` through `chapter-07.md` whil
 Chapter Seventeen retains the supplied internal title *The Physician*. Formatting was normalized for Markdown without rewriting its prose. The pre-chapter showrunner note was separated from the active manuscript and preserved in `source-material/chapter-17-chatgpt-source.md`.
 
 Chapter Nineteen retains the supplied internal title *The Empty Chair*. Formatting was normalized for Markdown without rewriting its prose. The pre-chapter context and post-chapter canon note were separated from the active manuscript and preserved in `source-material/chapter-19-chatgpt-source.md`. Chapter Eighteen remains an explicit source gap; no intervening prose was fabricated.
+
+Chapters Twenty and Twenty-One retain their supplied internal titles *The Question ORACLE Could Not Answer* and *The Empty Chair*. Formatting was normalized for Markdown without rewriting their prose. Surrounding showrunner context was separated into `source-material/chapter-20-chatgpt-source.md`; Chapter Twenty-One's source title duplicates Chapter Nineteen's title and remains unresolved pending Founder review.
