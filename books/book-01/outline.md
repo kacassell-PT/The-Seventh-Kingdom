@@ -3,7 +3,7 @@
 **Canon Status:** Exploratory
 **Version:** 0.1
 **Last Reviewed:** August 2026
-**Depends On:** `../../book-01-the-fifth-remnant/TRANSFER-MANIFEST.md`; `../../../showrunner/SERIES_PLAN.md`; recovered Chapters Four through Seven
+**Depends On:** `../../book-01-the-fifth-remnant/TRANSFER-MANIFEST.md`; `../../../showrunner/SERIES_PLAN.md`; recovered Chapters Four through Seven, Seventeen, and Nineteen
 
 This compatibility view supports the requested `books/book-01/` structure without replacing the established `books/book-01-the-fifth-remnant/` manuscript workflow.
 
@@ -38,6 +38,8 @@ Book One should make the Consensus credible and attractive, reveal the first hum
 | 15 | The Archivist | Missing exact standalone source |
 | 16 | Unknown | Exact source not supplied |
 | 17 | The Physician | Complete source supplied by Karl from ChatGPT; active manuscript draft added |
+| 18 | Unknown | Exact standalone source not recovered; referenced by Chapter Nineteen's source context |
+| 19 | The Empty Chair | Complete source recovered from the authenticated ChatGPT conversation; active manuscript draft added |
 
 ## Historical Consequences
 
@@ -45,7 +47,7 @@ The requested Book One structure becomes usable without creating a competing or 
 
 ## Narrative Payoffs
 
-Recovered chapter titles and missing-source boundaries clarify where character and mystery analysis can proceed confidently. Chapter Seventeen opens the Physician and Continuity formation thread without filling the Chapter Sixteen gap.
+Recovered chapter titles and missing-source boundaries clarify where character and mystery analysis can proceed confidently. Chapter Seventeen opens the Physician and Continuity formation thread without filling the Chapter Sixteen gap. Chapter Nineteen develops Naomi Vale's reception into the Fellowship without fabricating the missing Chapter Eighteen prose.
 
 ## Production Notes
 

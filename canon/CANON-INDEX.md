@@ -58,5 +58,7 @@ This index registers governed series documents and their current status. The pri
 | `books/book-01-the-fifth-remnant/manuscript/chapter-17.md` | Book One supplied source — *The Physician* | Manuscript draft | 2026-08-11 | Complete ChatGPT chapter supplied by Karl; formatting normalized; approval and canon status not inferred |
 | `books/book-01-the-fifth-remnant/source-material/chapter-17-chatgpt-source.md` | ChatGPT source for Chapter Seventeen and its pre-chapter showrunner note | Source artifact | 2026-08-11 | Preserves provenance and development context; not independently canonical |
 | `showrunner/FORMATION_PRINCIPLE_AND_WOUND_GRID.md` | Awakening-to-formation threshold and proposed wounds of the Twelve | Exploratory | 2026-08-11 | Reconciles source wording and flags Twelve, Continuity, Testament, and theological dependencies |
+| `books/book-01-the-fifth-remnant/manuscript/chapter-19.md` | Book One recovered source — *The Empty Chair* | Manuscript draft | 2026-08-15 | Complete ChatGPT chapter recovered from authenticated Edge; formatting normalized; approval and canon status not inferred |
+| `books/book-01-the-fifth-remnant/source-material/chapter-19-chatgpt-source.md` | ChatGPT source for Chapter Nineteen and its surrounding showrunner context | Source artifact | 2026-08-15 | Preserves provenance and development context; not independently canonical |
 
 > Administrative files organize the project but do not establish story canon.

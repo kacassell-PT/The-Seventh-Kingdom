@@ -2,6 +2,13 @@
 
 Append approved canon decisions here. Do not rewrite previous entries; add a dated entry with the decision, rationale, affected documents, and approving authority.
 
+## 2026-08-15 — Chapter Nineteen recovered from ChatGPT and placed in Book One
+
+- **Decision:** Recover the complete Chapter Nineteen, *The Empty Chair*, from the authenticated ChatGPT conversation “The Fifth Remnant”; place its prose in the active Book One manuscript and compatibility chapter path; preserve surrounding showrunner context separately as a source artifact.
+- **Rationale:** Fulfill the Founder's placement request using the original live source while preserving provenance, separating manuscript prose from commentary, and recording the unavailable Chapter Eighteen source without fabricating it.
+- **Affected:** `books/book-01-the-fifth-remnant/manuscript/chapter-19.md`, `books/book-01-the-fifth-remnant/source-material/chapter-19-chatgpt-source.md`, `books/book-01/chapters/chapter-19.md`, Book One navigation, Transfer Manifest, compatibility outline, and Canon Index.
+- **Authority:** Placement requested by Karl A. Cassell and executed by Silas. Manuscript placement does not imply Founder approval, canon promotion, adoption of the empty-chair symbol, Naomi's status among the Twelve, or approval of new Testament/Continuity mechanics.
+
 ## 2026-08-11 — Chapter Seventeen and formation principle admitted for development
 
 - **Decision:** Add Karl's supplied ChatGPT text for Book One Chapter Seventeen, *The Physician*, to the active manuscript workflow; preserve its complete source and pre-chapter showrunner note; and admit the awakening-to-formation threshold and wound grid as an Exploratory showrunner control.
