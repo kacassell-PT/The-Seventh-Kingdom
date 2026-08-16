@@ -8,22 +8,22 @@ The original requested fifteen-file sequence and all later supplied chapter sour
 
 | Requested file | Availability | Repository action |
 |---|---|---|
-| `chapter-01.md` | Exact standalone source not recovered | Not fabricated; remains a source gap |
-| `chapter-02.md` | Exact standalone source not recovered | Not fabricated; remains a source gap |
-| `chapter-03-lifecredit.md` | Exact standalone source not recovered | Not fabricated; remains a source gap |
+| `chapter-01.md` | Complete prose recovered from the authenticated ChatGPT conversation on August 15, 2026 | Added to top-level `chapters/`; active manuscript promotion not inferred |
+| `chapter-02.md` | Complete prose recovered from the authenticated ChatGPT conversation on August 15, 2026 | Added to top-level `chapters/`; active manuscript promotion not inferred |
+| `chapter-03-lifecredit.md` | Complete prose recovered from the authenticated ChatGPT conversation on August 15, 2026 | Added to top-level `chapters/`; active manuscript promotion not inferred |
 | `chapter-04.md` | Exact source recovered from ChatGPT package | Added to `manuscript/` |
 | `chapter-05.md` | Exact source recovered from ChatGPT package | Added to `manuscript/` |
 | `chapter-06.md` | Exact source recovered from ChatGPT package | Added to `manuscript/` |
 | `chapter-07.md` | Exact source recovered from ChatGPT package | Added to `manuscript/` |
-| `chapter-08-the-shepherds-burden.md` | Writers' Room development text visible; exact author-approved manuscript not available as standalone source | Not converted into manuscript canon |
-| `chapter-09-the-valley-between.md` | Exact standalone source not recovered | Not fabricated; remains a source gap |
-| `chapter-10-living-water.md` | Exact standalone source not recovered | Not fabricated; remains a source gap |
-| `chapter-11-the-crossing.md` | Exact standalone source not recovered | Not fabricated; remains a source gap |
-| `chapter-12-the-hunters.md` | Exact standalone source not recovered | Not fabricated; remains a source gap |
-| `chapter-13-the-choice.md` | Exact standalone source not recovered | Not fabricated; remains a source gap |
-| `chapter-14-the-fourth-name.md` | Exact standalone source not recovered | Not fabricated; remains a source gap |
-| `chapter-15-the-archivist.md` | Exact standalone source not recovered | Not fabricated; remains a source gap |
-| `chapter-16.md` | Exact source not supplied | Not fabricated; remains a source gap |
+| `chapter-08-the-shepherds-burden.md` | Complete superseded Chapter Eight draft retained as *The Builder*; separate Writers' Room development text proposes *The Shepherd's Burden* | Superseded draft added to top-level `chapters/`; no active Chapter Eight inferred |
+| `chapter-09-the-valley-between.md` | Complete prose recovered from the authenticated ChatGPT conversation on August 15, 2026 | Added to top-level `chapters/`; active manuscript promotion not inferred |
+| `chapter-10-living-water.md` | Complete prose recovered from the authenticated ChatGPT conversation on August 15, 2026 | Added to top-level `chapters/`; active manuscript promotion not inferred |
+| `chapter-11-the-crossing.md` | Complete prose recovered from the authenticated ChatGPT conversation on August 15, 2026 | Added to top-level `chapters/`; active manuscript promotion not inferred |
+| `chapter-12-the-hunters.md` | Complete prose recovered from the authenticated ChatGPT conversation on August 15, 2026 | Added to top-level `chapters/`; active manuscript promotion not inferred |
+| `chapter-13-the-choice.md` | Complete prose recovered from the authenticated ChatGPT conversation on August 15, 2026 | Added to top-level `chapters/`; active manuscript promotion not inferred |
+| `chapter-14-the-fourth-name.md` | Complete prose recovered from the authenticated ChatGPT conversation on August 15, 2026 | Added to top-level `chapters/`; active manuscript promotion not inferred |
+| `chapter-15-the-archivist.md` | Complete prose recovered from the authenticated ChatGPT conversation on August 15, 2026 | Added to top-level `chapters/`; active manuscript promotion not inferred |
+| `chapter-16.md` | Complete prose recovered from the authenticated ChatGPT conversation on August 15, 2026 | Added to top-level `chapters/`; active manuscript promotion not inferred |
 | `chapter-17.md` | Complete chapter supplied by Karl from ChatGPT in Hermes on August 11, 2026 | Added to `manuscript/`; verbatim source and showrunner note retained under `source-material/`; approval/canon status not inferred |
 | `chapter-18.md` | Exact standalone source not recovered; referenced by Chapter Nineteen's surrounding conversation | Not fabricated; remains a source gap |
 | `chapter-19.md` | Complete chapter recovered from the authenticated ChatGPT conversation “The Fifth Remnant” on August 15, 2026 | Added to `manuscript/`; complete wording and showrunner context retained under `source-material/`; approval/canon status not inferred |

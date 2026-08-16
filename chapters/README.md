@@ -8,4 +8,30 @@ This folder provides top-level navigation to recovered and active manuscript cha
 - [Compatibility chapter directory](../books/book-01/chapters/)
 - [Chapter transfer manifest](../books/book-01-the-fifth-remnant/TRANSFER-MANIFEST.md)
 
+## Recovered chapter inventory
+
+| Chapter | File | Status |
+|---|---|---|
+| 1 | [The Ghost in the Architecture](chapter-01.md) | Manuscript draft recovered from ChatGPT |
+| 2 | [The Veil](chapter-02.md) | Manuscript draft recovered from ChatGPT |
+| 3 | [LifeCredit](chapter-03.md) | Manuscript draft recovered from ChatGPT |
+| 4 | [The Last Manuscript](chapter-04.md) | Verified manuscript draft |
+| 5 | [The Custodians](chapter-05.md) | Verified manuscript draft |
+| 6 | [The Shepherd](chapter-06.md) | Verified manuscript draft |
+| 7 | [The Road West](chapter-07.md) | Verified manuscript draft |
+| 8 | [The Builder](chapter-08-superseded-draft.md) | Superseded draft; not active manuscript |
+| 9 | [The Valley Between](chapter-09.md) | Manuscript draft recovered from ChatGPT |
+| 10 | [Living Water](chapter-10.md) | Manuscript draft recovered from ChatGPT |
+| 11 | [The Crossing](chapter-11.md) | Manuscript draft recovered from ChatGPT |
+| 12 | [The Hunters](chapter-12.md) | Manuscript draft recovered from ChatGPT |
+| 13 | [The Choice](chapter-13.md) | Manuscript draft recovered from ChatGPT |
+| 14 | [The Fourth Name](chapter-14.md) | Manuscript draft recovered from ChatGPT |
+| 15 | [The Archivist](chapter-15.md) | Manuscript draft recovered from ChatGPT |
+| 16 | [The Kingdom That Cannot Be Engineered](chapter-16.md) | Manuscript draft recovered from ChatGPT |
+| 17 | [The Physician](chapter-17.md) | Verified manuscript draft |
+| 18 | — | **Source gap: complete novel prose not recovered** |
+| 19 | [The Empty Chair](chapter-19.md) | Verified manuscript draft |
+
+The accessible ChatGPT conversation contains a separate *Consensus Codex* section titled “Chapter 18 — The Doctrine of Hope.” That is worldbuilding material, not Book One Chapter 18, and has not been placed in this folder.
+
 Chapter drafts do not independently establish series canon. The private `seventh-kingdom-archives` repository remains the authoritative canon source.

@@ -2,6 +2,13 @@
 
 Append approved canon decisions here. Do not rewrite previous entries; add a dated entry with the decision, rationale, affected documents, and approving authority.
 
+## 2026-08-15 — Book One Chapters One through Seventeen collected in top-level chapters folder
+
+- **Decision:** Recover and place verified Book One narrative prose for Chapters One through Seventeen in `chapters/`; retain Chapter Eight with an explicit superseded-draft label; record Chapter Eighteen as an unresolved source gap.
+- **Rationale:** Give the requested top-level chapter folder a usable sequential collection without importing ZIP placeholders, confusing Consensus Codex material with novel prose, or fabricating the unavailable Chapter Eighteen.
+- **Affected:** `chapters/chapter-01.md` through `chapters/chapter-19.md`, excluding unavailable Chapter Eighteen; `chapters/chapter-08-superseded-draft.md`; `chapters/README.md`; Book One Transfer Manifest; `canon/CANON-INDEX.md`.
+- **Authority:** Placement requested by Karl A. Cassell and executed by Silas. Manuscript status, chapter revisions, canon promotion, and the missing Chapter Eighteen source remain subject to Founder authority.
+
 ## 2026-08-15 — Chapter Nineteen recovered from ChatGPT and placed in Book One
 
 - **Decision:** Recover the complete Chapter Nineteen, *The Empty Chair*, from the authenticated ChatGPT conversation “The Fifth Remnant”; place its prose in the active Book One manuscript and compatibility chapter path; preserve surrounding showrunner context separately as a source artifact.
