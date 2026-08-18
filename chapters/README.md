@@ -19,7 +19,7 @@ This folder provides top-level navigation to recovered and active manuscript cha
 | 5 | [The Custodians](chapter-05.md) | Verified manuscript draft |
 | 6 | [The Shepherd](chapter-06.md) | Verified manuscript draft |
 | 7 | [The Road West](chapter-07.md) | Verified manuscript draft |
-| 8 | [The Builder](chapter-08-superseded-draft.md) | Superseded draft; not active manuscript |
+| 8 | [The Builder](chapter-08.md) | Cleaned manuscript recovered from ChatGPT |
 | 9 | [The Valley Between](chapter-09.md) | Manuscript draft recovered from ChatGPT |
 | 10 | [Living Water](chapter-10.md) | Manuscript draft recovered from ChatGPT |
 | 11 | [The Crossing](chapter-11.md) | Manuscript draft recovered from ChatGPT |
@@ -33,6 +33,8 @@ This folder provides top-level navigation to recovered and active manuscript cha
 | 19 | [The Empty Chair](chapter-19.md) | Verified manuscript draft |
 | 20 | [The Question ORACLE Could Not Answer](chapter-20.md) | Manuscript draft recovered from ChatGPT |
 | 21 | [The Empty Chair](chapter-21.md) | Manuscript draft recovered from ChatGPT; title collision with Chapter 19 requires Founder review |
+
+The earlier corrupted duplicate is retained as [`chapter-08-superseded-draft.md`](chapter-08-superseded-draft.md) for provenance and is not the active Chapter Eight.
 
 The accessible ChatGPT conversation contains a separate *Consensus Codex* section titled “Chapter 18 — The Doctrine of Hope.” That is worldbuilding material, not Book One Chapter 18, and has not been placed in this folder. Chapter 18 remains the only unfilled position in the requested sequence through Chapter 21.
 
