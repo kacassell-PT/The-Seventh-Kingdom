@@ -29,13 +29,13 @@ This folder provides top-level navigation to recovered and active manuscript cha
 | 15 | [The Archivist](chapter-15.md) | Manuscript draft recovered from ChatGPT |
 | 16 | [The Kingdom That Cannot Be Engineered](chapter-16.md) | Manuscript draft recovered from ChatGPT |
 | 17 | [The Physician](chapter-17.md) | Verified manuscript draft |
-| 18 | — | **Source gap: complete novel prose not recovered** |
+| 18 | [Bread](chapter-18.md) | Manuscript chapter supplied by Karl A. Cassell |
 | 19 | [The Empty Chair](chapter-19.md) | Verified manuscript draft |
 | 20 | [The Question ORACLE Could Not Answer](chapter-20.md) | Manuscript draft recovered from ChatGPT |
 | 21 | [The Empty Chair](chapter-21.md) | Manuscript draft recovered from ChatGPT; title collision with Chapter 19 requires Founder review |
 
 The earlier corrupted duplicate is retained as [`chapter-08-superseded-draft.md`](chapter-08-superseded-draft.md) for provenance and is not the active Chapter Eight.
 
-The accessible ChatGPT conversation contains a separate *Consensus Codex* section titled “Chapter 18 — The Doctrine of Hope.” That is worldbuilding material, not Book One Chapter 18, and has not been placed in this folder. Chapter 18 remains the only unfilled position in the requested sequence through Chapter 21.
+The separate *Consensus Codex* section titled “Chapter 18 — The Doctrine of Hope” remains worldbuilding material and is not Book One Chapter 18. Book One Chapter Eighteen, *Bread*, is now included above.
 
 Chapter drafts do not independently establish series canon. The private `seventh-kingdom-archives` repository remains the authoritative canon source.
