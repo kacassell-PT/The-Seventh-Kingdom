@@ -33,6 +33,7 @@ This folder provides top-level navigation to recovered and active manuscript cha
 | 19 | [The Empty Chair](chapter-19.md) | Verified manuscript draft |
 | 20 | [The Question ORACLE Could Not Answer](chapter-20.md) | Manuscript draft recovered from ChatGPT |
 | 21 | [The Empty Chair](chapter-21.md) | Manuscript draft recovered from ChatGPT; title collision with Chapter 19 requires Founder review |
+| 22 | [Protocol One](chapter-22.md) | Manuscript chapter supplied by Karl A. Cassell |
 
 The earlier corrupted duplicate is retained as [`chapter-08-superseded-draft.md`](chapter-08-superseded-draft.md) for provenance and is not the active Chapter Eight.
 
