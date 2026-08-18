@@ -35,6 +35,7 @@ This folder provides top-level navigation to recovered and active manuscript cha
 | 21 | [The Empty Chair](chapter-21.md) | Manuscript draft recovered from ChatGPT; title collision with Chapter 19 requires Founder review |
 | 22 | [Protocol One](chapter-22.md) | Manuscript chapter supplied by Karl A. Cassell |
 | 23 | [The Witness File](chapter-23.md) | Manuscript chapter supplied by Karl A. Cassell |
+| 24 | [The Fifth Remnant](chapter-24.md) | Manuscript chapter supplied by Karl A. Cassell |
 
 The earlier corrupted duplicate is retained as [`chapter-08-superseded-draft.md`](chapter-08-superseded-draft.md) for provenance and is not the active Chapter Eight.
 
