@@ -42,6 +42,7 @@ This folder provides top-level navigation to recovered and active manuscript cha
 | 28 | [Stay](chapter-28.md) | Manuscript chapter supplied by Karl A. Cassell |
 | 29 | [The Table](chapter-29.md) | Manuscript chapter supplied by Karl A. Cassell |
 | 30 | [The Gates](chapter-30.md) | Manuscript chapter supplied by Karl A. Cassell |
+| 31 | [The Door](chapter-31.md) | Manuscript chapter supplied by Karl A. Cassell |
 
 The earlier corrupted duplicate is retained as [`chapter-08-superseded-draft.md`](chapter-08-superseded-draft.md) for provenance and is not the active Chapter Eight.
 
