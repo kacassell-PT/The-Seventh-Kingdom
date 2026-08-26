@@ -44,6 +44,7 @@ This folder provides top-level navigation to recovered and active manuscript cha
 | 30 | [The Gates](chapter-30.md) | Manuscript chapter supplied by Karl A. Cassell |
 | 31 | [The Door](chapter-31.md) | Manuscript chapter supplied by Karl A. Cassell |
 | 32 | [The Open House](chapter-32.md) | Manuscript chapter supplied by Karl A. Cassell |
+| 33 | [Confession](chapter-33.md) | Manuscript chapter supplied by Karl A. Cassell |
 
 The earlier corrupted duplicate is retained as [`chapter-08-superseded-draft.md`](chapter-08-superseded-draft.md) for provenance and is not the active Chapter Eight.
 
