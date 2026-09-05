@@ -50,6 +50,7 @@ This folder provides top-level navigation to recovered and active manuscript cha
 | 36 | [The Names](chapter-36.md) | Manuscript chapter supplied by Karl A. Cassell |
 | 37 | [The Body](chapter-37.md) | Manuscript chapter supplied by Karl A. Cassell |
 | 38 | [Solomon](chapter-38.md) | Manuscript chapter supplied by Karl A. Cassell |
+| 39 | [The Fifth Remnant](chapter-39.md) | Manuscript chapter supplied by Karl A. Cassell |
 
 The earlier corrupted duplicate is retained as [`chapter-08-superseded-draft.md`](chapter-08-superseded-draft.md) for provenance and is not the active Chapter Eight.
 
