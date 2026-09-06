@@ -762,11 +762,11 @@ The page was no longer blank.
 
 One sentence waited.
 
-The Hunter has laid down her weapon.
+> **The Hunter has laid down her weapon.**
 
 Then another appeared.
 
-Do not call her Hunter again.
+> **Do not call her Hunter again.**
 
 Michael stared.
 
@@ -774,7 +774,7 @@ Marcus leaned closer.
 
 Fresh ink emerged beneath the words.
 
-Call her Naomi.
+> **Call her Naomi.**
 
 Nothing else.
 
@@ -817,3 +817,21 @@ But around a small fire beneath the Montana stars...
 a woman who had spent half her life being defined by what she could do had finally been received for who she was.
 
 And beside her stood an empty chair no longer empty.
+
+---
+
+> **From *The Testament of Light* — Margin XIX**
+>
+> *Leave room before you know the name.*
+>
+> *Mercy does not wait for certainty before preparing a place.*
+>
+> *The world receives people according to usefulness, allegiance, and proof.*
+>
+> *The Kingdom makes room because the King already knows who is coming.*
+>
+> *And when the stranger arrives, do not first ask what title she carried.*
+>
+> *Call her by her name.*
+
+**End Chapter Nineteen**
