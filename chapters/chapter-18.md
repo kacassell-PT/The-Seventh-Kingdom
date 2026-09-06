@@ -545,3 +545,19 @@ The Kingdom advanced another quiet step.
 Not because another battle had been won.
 
 But because six wounded people had begun, however imperfectly, to become brothers and sisters before they ever became heroes.
+
+---
+
+> **From** ***The Testament of Light*** **— Margin XVIII**
+>
+> *Do not despise daily bread because it appears ordinary.*
+>
+> *The proud man asks for kingdoms while refusing dependence.*
+>
+> *The faithful receive what is given, share what they have, and give thanks before they know what tomorrow contains.*
+>
+> *A table becomes holy not because everyone receives the same portion...*
+>
+> *but because no one at it is treated as disposable.*
+
+**End Chapter Eighteen**
