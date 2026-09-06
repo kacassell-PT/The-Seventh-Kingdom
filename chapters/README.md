@@ -51,6 +51,7 @@ This folder provides top-level navigation to recovered and active manuscript cha
 | 37 | [The Body](chapter-37.md) | Manuscript chapter supplied by Karl A. Cassell |
 | 38 | [Solomon](chapter-38.md) | Manuscript chapter supplied by Karl A. Cassell |
 | 39 | [The Fifth Remnant](chapter-39.md) | Manuscript chapter supplied by Karl A. Cassell |
+| 40 | [The Seventh Kingdom](chapter-40.md) | Manuscript chapter supplied by Karl A. Cassell; concludes Book One |
 
 The earlier corrupted duplicate is retained as [`chapter-08-superseded-draft.md`](chapter-08-superseded-draft.md) for provenance and is not the active Chapter Eight.
 
