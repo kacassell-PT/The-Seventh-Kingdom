@@ -552,7 +552,7 @@ Leah.
 
 Samuel.
 
-Four names confirmed.
+People they could still reach.
 
 Michael missing.
 
@@ -570,17 +570,17 @@ Sarah looked up.
 
 "It never was."
 
-"The manuscript lists twelve."
+"The manuscript showed twelve circles."
 
-"We have seven."
+"And it didn't give you permission to fill them yourself."
 
-"Six."
+Elijah looked at her.
 
-"Rebecca hasn't chosen."
+Sarah continued.
 
-Sarah smiled.
+"These people aren't pieces in your prophecy. They're people in danger."
 
-"Neither had Peter."
+That silenced him.
 
 Elijah almost smiled back.
 
@@ -676,7 +676,7 @@ Solomon folded his hands.
 
 "Speak."
 
-"Twelve individuals possess statistically impossible convergence."
+"Eight high-priority convergence anomalies currently exhibit statistically significant correlation."
 
 The names appeared one by one.
 
@@ -696,7 +696,11 @@ Rebecca Carter.
 
 Marcus Reed.
 
-Four remained unidentified.
+The Director of Security leaned forward.
+
+"The Twelve?"
+
+"Unconfirmed," ORACLE replied. "My model identifies behavior, not divine selection."
 
 The Director of Security smiled.
 
@@ -758,7 +762,7 @@ Billions of lights moved in perfect harmony.
 
 Except...
 
-Eight.
+a handful of anomalies.
 
 Small.
 

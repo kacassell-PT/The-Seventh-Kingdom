@@ -834,41 +834,51 @@ Then twelve sparks lifted from the page and hung in the air like living embers.
 
 Sarah whispered, "The others."
 
-Elijah understood without knowing how.
+Elijah understood only part of what he was seeing.
 
 Twelve.
 
-Not perfect.
+Not twelve names.
 
-Not holy in themselves.
+Not a roster he could recruit.
 
-Not chosen because they were clean.
+Callings.
 
-Chosen because they would be made useful.
+Wounds.
 
-A soldier with blood on his hands.
+Lives moving toward a table none of them yet knew existed.
 
-A financier who built chains.
+He sensed a builder.
 
-A police commander who trusted algorithms more than mercy.
+A shepherd who had once carried a sword.
 
-A scientist who peered into time and mistook a window for a throne.
+A keeper of Scripture.
 
-A biotech engineer who helped grow bodies for men afraid to die.
+An archivist of forbidden memory.
 
-A teacher.
+A commander who would have to choose conscience over orders.
 
-A counselor.
+A physician tempted to confuse healing with resurrection.
 
-A hacker.
+A servant buried deep inside the architecture of power.
 
-An influencer.
+Beyond them were other impressions he could not name:
 
-A historian.
+wealth surrendered,
 
-A journalist.
+science humbled,
 
-And a builder of the beast architecture.
+medicine restrained,
+
+prophecy tested,
+
+and one place in the pattern that remained completely hidden.
+
+No faces.
+
+No certainty.
+
+Only twelve lights and the terrible knowledge that none of them belonged to Elijah.
 
 Elijah began to weep.
 

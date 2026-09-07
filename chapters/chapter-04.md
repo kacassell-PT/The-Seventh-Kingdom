@@ -464,61 +464,51 @@ Across the top:
 
 **IF YOU HAVE FOUND THIS...**
 
-Below it was a list.
+Below it were twelve circles.
 
-Michael read the first name.
+Most were empty.
+
+Beside only three were handwritten names.
 
 Elijah Cross.
 
-The second.
-
-Sarah Navarro.
-
-The third.
-
-His own.
-
 Michael Tesfaye.
 
-He froze.
+Nathaniel Cole.
 
-The page continued.
+Michael froze.
 
-Leah Morgan.
+His own name was the second.
 
-Samuel Brooks.
+"Who made this?"
 
-David Carter.
+The monk studied the page.
 
-Rebecca Carter.
+"Someone who knew enough to watch."
 
-Then...
-
-Five empty lines.
-
-No names.
-
-Just blank spaces.
-
-The monk looked unsurprised.
-
-"You found the list."
-
-"You knew?"
-
-"I knew it existed."
-
-"You didn't know the names?"
+"Are these the Twelve?"
 
 "No."
 
-Michael stared at the page.
+Michael looked up.
 
-"My name..."
+The answer came too quickly.
+
+The monk continued.
+
+"Do not confuse a human list with the King's choosing."
+
+He touched the empty circles.
+
+"This is evidence of convergence. Nothing more."
+
+Michael looked again at Nathaniel Cole's name.
+
+"And mine?"
 
 The monk nodded.
 
-"It has been waiting for you."
+"It means someone noticed you before you noticed the road."
 
 ---
 

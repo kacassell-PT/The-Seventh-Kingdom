@@ -830,9 +830,13 @@ Leah laughed.
 
 Sarah touched the parchment fragment lying beside the terminal.
 
-"The Spirit said twelve."
+"The manuscript showed twelve."
 
-Elijah looked at the wall where names had been written in chalk.
+Elijah looked at the wall where they had written names in chalk.
+
+Not the Twelve.
+
+People already caught in the widening fire.
 
 Elijah Cross.
 
@@ -842,13 +846,13 @@ Michael Tesfaye.
 
 Leah Morgan.
 
-Four names.
+Samuel Brooks.
 
-Eight blanks.
+The list was operational, not prophetic.
 
 Leah pulled up the Carter family again.
 
-"David Carter could be one."
+"David Carter matters."
 
 Elijah shook his head.
 
