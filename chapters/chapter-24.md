@@ -2,7 +2,7 @@
 
 ## CHAPTER TWENTY-FOUR
 
-## The Fifth Remnant
+## Whose Image Do You Bear?
 
 > **From** ***The Testament of Light*** **— Fragment XXIV**
 >
@@ -1733,3 +1733,5 @@ was to become fully human again.
 > *For the image of God is not protected when men dominate their enemies.*
 >
 > *It is revealed when they refuse to become them.*
+
+**End Chapter Twenty-Four**

@@ -192,7 +192,7 @@ Names.
 
 Sarah wrote them in a paper notebook.
 
-Ruth Bell.
+Esther Bell.
 
 Daniel Bell.
 
@@ -1606,7 +1606,9 @@ Beneath it...
 
 another sentence appeared.
 
-> **THE SEVENTH WILL OPEN THE FIRST GATE.**
+> **THE SEVENTH WILL STAND BEFORE THE FIRST GATE.**
+>
+> **SHE MUST DECIDE WHICH SIDE OF IT SHE IS ON.**
 >
 > **BUT SHE MUST FIRST DECIDE WHICH SIDE OF IT SHE IS ON.**
 
@@ -1761,3 +1763,5 @@ ORACLE asked a question no engineer had programmed it to ask.
 > *The deceiver does not always demand entrance.*
 >
 > *Sometimes he waits for intelligent men to build him a door.*
+
+**End Chapter Thirty**

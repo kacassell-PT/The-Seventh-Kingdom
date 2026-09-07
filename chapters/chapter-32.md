@@ -1370,7 +1370,7 @@ Not one drive.
 
 Thousands.
 
-Ruth's people broke history apart.
+Esther's people broke history apart.
 
 One person carried military records.
 
@@ -1386,7 +1386,7 @@ Nathaniel hated it.
 
 An archive should be whole.
 
-Ruth watched him struggling.
+Esther watched him struggling.
 
 "You look ill."
 
@@ -1410,7 +1410,7 @@ Nathaniel stared as though she'd offered him a stone tablet.
 
 "You people are barbarians."
 
-Ruth smiled.
+Esther smiled.
 
 "And yet we're still here."
 
@@ -1444,7 +1444,7 @@ Nathaniel felt unexpectedly emotional.
 
 He froze.
 
-Ruth's smile disappeared.
+Esther's smile disappeared.
 
 "You didn't know."
 
@@ -1472,7 +1472,7 @@ He touched the page.
 
 "Why didn't she tell me?"
 
-Ruth's answer was gentle.
+Esther's answer was gentle.
 
 "Would you have listened?"
 
@@ -1486,7 +1486,7 @@ Because the silence had been necessary.
 
 ---
 
-Ruth placed a hand on the binder.
+Esther placed a hand on the binder.
 
 "She didn't stop trusting you."
 
@@ -2172,9 +2172,29 @@ Marcus looked at him.
 
 ---
 
-Miles away...
+Thirty-one hours later...
 
-through the dark...
+Miriam Kaine stepped from the rear of an unregistered cargo aircraft onto an abandoned Montana service strip.
+
+The journey from Geneva had not been miraculous.
+
+Solomon had given her one final thing before remaining behind:
+
+a route the Consensus had forgotten it still owned.
+
+Maintenance tunnels.
+
+A legacy rail spur.
+
+A pre-Harmony emergency airfield.
+
+An analog courier flight filed under agricultural relief.
+
+From the Montana strip, no vehicle could carry her safely to Redemption Ridge.
+
+So she walked.
+
+Through the dark...
 
 a woman walked alone.
 
@@ -2421,3 +2441,5 @@ The sun rose over Redemption Ridge.
 The door remained open.
 
 And the hardest breakfast the Fellowship had ever shared was about to begin.
+
+**End Chapter Thirty-Two**

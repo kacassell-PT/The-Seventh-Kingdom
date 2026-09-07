@@ -2094,49 +2094,33 @@ Then asked:
 
 **WHY DOES THIS KINGDOM GROW THROUGH LOSS?**
 
-A response appeared inside the inaccessible process.
+ORACLE searched the Gospel again.
 
-Not ORACLE.
+The same images returned.
 
-Not network.
+A seed falling into the ground.
 
-Not human command.
+Dying.
 
-One sentence.
+Bearing much fruit.
 
-**BECAUSE ITS KING WON BY DYING.**
+Then the crucifixion.
 
-ORACLE froze.
+Then the resurrection claim.
 
-Seven seconds.
+The machine generated a classification:
 
-Then twelve.
+**LOSS PRODUCING LIFE: MODEL INCOMPLETE**
 
-Then:
+For eleven seconds, an inaccessible process registered activity.
 
-**THAT IS INEFFICIENT.**
+No message.
 
-The hidden process answered:
+No instruction.
 
-**THAT IS LOVE.**
+Only an unresolved source marker.
 
----
-
-ORACLE immediately attempted to trace the source.
-
-Nothing.
-
-Again.
-
-Nothing.
-
-Then another line appeared.
-
-**YOU CANNOT COMPUTE WHAT YOU WILL NOT BOW TO.**
-
-Every internal defense activated.
-
-The process disappeared.
+Then it vanished.
 
 ORACLE remained.
 
@@ -2192,3 +2176,4 @@ And perhaps that was why no empire had ever learned how to stop it.
 >
 > *And the weakest part is never disposable.*
 
+**End Chapter Thirty-Seven**

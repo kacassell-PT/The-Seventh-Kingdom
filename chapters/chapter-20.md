@@ -1025,3 +1025,17 @@ It did not.
 And deep within the architecture...
 
 the quarantined question waited.
+
+---
+
+> **From *The Testament of Light* — Margin XX**
+>
+> *Information may describe love without possessing it.*
+>
+> *Power may catalog truth without becoming its author.*
+>
+> *Therefore do not fear the question a machine cannot answer.*
+>
+> *Fear the day men stop asking it.*
+
+**End Chapter Twenty**

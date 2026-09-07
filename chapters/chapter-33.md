@@ -1660,7 +1660,7 @@ David hesitated.
 
 The woman smiled.
 
-"My name is Ruth."
+"My name is Esther."
 
 She looked toward Noah.
 
@@ -1793,3 +1793,5 @@ Miriam Kaine began telling her story without editing herself.
 > *Not because truth earns a seat at the table.*
 >
 > *But because those seated with the King no longer need the darkness.*
+
+**End Chapter Thirty-Three**

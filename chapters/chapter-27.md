@@ -1839,3 +1839,5 @@ It was built when people who had every reason to leave...
 > *That is not covenant.*
 >
 > *That is fear.*
+
+**End Chapter Twenty-Seven**

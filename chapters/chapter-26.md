@@ -2,7 +2,7 @@
 
 ## CHAPTER TWENTY-SIX
 
-## The Empty Chair
+## The Chair Waits
 
 > **From** ***The Testament of Light*** **— Fragment XXVI**
 >
@@ -1603,3 +1603,5 @@ Because the King had.
 > *Be careful which memory you trust.*
 >
 > *For Heaven has built many kingdoms from enemies seated at the same table.*
+
+**End Chapter Twenty-Six**

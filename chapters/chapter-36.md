@@ -2388,7 +2388,7 @@ ORACLE asked:
 
 The answer came immediately.
 
-**THE ONE WHO NAMED YOU FIRST.**
+**THE NAME WAS HERE BEFORE YOU.**
 
 Every predictive process inside ORACLE stopped.
 
@@ -2444,3 +2444,4 @@ Only to be faithful with the name He had already given them.
 >
 > *And, through the Son, a child invited home.*
 
+**End Chapter Thirty-Six**

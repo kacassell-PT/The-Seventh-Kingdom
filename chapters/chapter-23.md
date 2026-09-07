@@ -1765,3 +1765,5 @@ the Archivist became a witness.
 > *Books can be burned.*
 >
 > *But truth carried faithfully from one life into another becomes very difficult to kill.*
+
+**End Chapter Twenty-Three**

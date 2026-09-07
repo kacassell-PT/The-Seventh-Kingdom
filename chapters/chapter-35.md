@@ -26,7 +26,7 @@ Not philosophically.
 
 Physically.
 
-It smelled like diesel, wet canvas, old coffee, and something Ruth Okafor insisted was livestock feed but Nathaniel strongly suspected had once been livestock.
+It smelled like diesel, wet canvas, old coffee, and something Esther Okafor insisted was livestock feed but Nathaniel strongly suspected had once been livestock.
 
 Every hole in the road traveled directly through the suspension and into his spine.
 
@@ -46,7 +46,7 @@ Weather.
 
 Dust.
 
-And Ruth humming badly beside him.
+And Esther humming badly beside him.
 
 Nathaniel looked toward her.
 
@@ -74,7 +74,7 @@ He adjusted the box resting between his feet.
 
 "I regret leaving Washington with you."
 
-Ruth smiled.
+Esther smiled.
 
 "Better."
 
@@ -88,7 +88,7 @@ There was no longer one Archive.
 
 That had taken Nathaniel three days to accept.
 
-The records had been broken apart and scattered through communities Ruth called houses.
+The records had been broken apart and scattered through communities Esther called houses.
 
 Not safe houses.
 
@@ -142,7 +142,7 @@ Some imprisoned.
 
 Some living beneath names history had been ordered to forget.
 
-Ruth glanced toward the box.
+Esther glanced toward the box.
 
 "You've checked it six times."
 
@@ -158,7 +158,7 @@ He disliked that.
 
 ---
 
-"You don't trust the drives?" Ruth asked.
+"You don't trust the drives?" Esther asked.
 
 "I don't trust roads."
 
@@ -166,7 +166,7 @@ He disliked that.
 
 "So had empires, according to people living inside them."
 
-Ruth laughed.
+Esther laughed.
 
 Then her expression softened.
 
@@ -188,7 +188,7 @@ He sighed.
 
 ---
 
-Ruth knew.
+Esther knew.
 
 Miriam Kaine.
 
@@ -222,7 +222,7 @@ He had not decided whether that made the message holier or merely harder to thro
 
 ---
 
-"You're allowed to be angry," Ruth said.
+"You're allowed to be angry," Esther said.
 
 Nathaniel looked at the mountains.
 
@@ -238,7 +238,7 @@ He turned.
 
 "You people have a disturbing theology of low expectations."
 
-Ruth smiled.
+Esther smiled.
 
 "No."
 
@@ -250,7 +250,7 @@ She looked back toward the road.
 
 Nathaniel said nothing.
 
-Ruth continued.
+Esther continued.
 
 "Forgiveness isn't pretending your nervous system got the memo."
 
@@ -266,7 +266,7 @@ He was approaching Miriam Kaine.
 
 Laughter felt disloyal to the dead.
 
-Ruth noticed that too.
+Esther noticed that too.
 
 She noticed far too much.
 
@@ -276,7 +276,7 @@ Nathaniel's face hardened.
 
 "Don't use my wife to make a point."
 
-Ruth nodded immediately.
+Esther nodded immediately.
 
 "You're right."
 
@@ -296,7 +296,7 @@ Nathaniel looked toward her.
 
 He stared.
 
-Ruth kept driving.
+Esther kept driving.
 
 Nathaniel whispered:
 
@@ -962,7 +962,7 @@ He frowned.
 
 "This is it?"
 
-Ruth slowed.
+Esther slowed.
 
 "What were you expecting?"
 
@@ -1030,7 +1030,7 @@ Marcus pretended not to notice.
 
 Nathaniel appreciated him immediately for that.
 
-Ruth climbed out.
+Esther climbed out.
 
 "Food?"
 
@@ -1038,7 +1038,7 @@ Marcus pointed toward the chapel.
 
 "Always."
 
-Ruth looked pleased.
+Esther looked pleased.
 
 Nathaniel looked toward the door.
 
@@ -1062,7 +1062,7 @@ Nathaniel took the box from the truck.
 
 "But if I traveled twelve hundred miles to avoid her, Hannah would haunt me."
 
-Ruth smiled.
+Esther smiled.
 
 "She'd correct your footnotes."
 
@@ -1074,7 +1074,7 @@ Nathaniel looked toward her.
 
 They walked toward the chapel.
 
-Sarah met Ruth first.
+Sarah met Esther first.
 
 Their eyes lingered.
 
@@ -1178,7 +1178,7 @@ Not leaving.
 
 Making space.
 
-Ruth moved toward the far wall.
+Esther moved toward the far wall.
 
 Sarah closed her notebook.
 
@@ -1414,7 +1414,7 @@ Nathaniel went still.
 
 "I helped authorize the framework."
 
-Ruth's expression changed.
+Esther's expression changed.
 
 Even she had not known that.
 
@@ -1430,137 +1430,59 @@ Miriam continued.
 
 "Religious networks."
 
-Her eyes moved toward Ruth.
+Her eyes moved toward Esther.
 
 "Then communities we couldn't dismantle conventionally."
 
 ---
 
-Nathaniel looked at Ruth.
+Nathaniel looked at Esther.
 
-Miriam followed.
+Miriam's eyes moved across the Administrative Death files.
 
-"Ruth Freeman?"
+One name stopped her.
 
-Ruth nodded.
+**RUTH ELAINE FREEMAN**
+
+Nathaniel saw her expression change.
+
+"You know that name?"
 
 Miriam swallowed.
 
-"I signed yours."
+"Yes."
 
-Ruth said nothing.
+"How?"
 
-Nathaniel stared.
+She did not look away from the record.
 
-One woman.
+"I signed this one."
 
-Two people at the same table whose lives Miriam had erased differently.
+The room became still.
 
-A monastery.
+Esther looked toward Nathaniel.
 
-A human being.
+Nathaniel looked back at Miriam.
 
-Memory.
+Not confrontation yet.
 
-Identity.
+Witness first.
 
----
+The woman whose legal death Miriam had authorized was still somewhere beyond the Ridge, alive beneath a name the Consensus had tried to erase.
 
-Ruth approached slowly.
+Miriam touched the edge of the file.
 
-Miriam looked toward her.
+"If she comes here..."
 
-"I am sorry."
+Her voice failed.
 
-Ruth's expression remained calm.
+Nathaniel answered quietly.
 
-"You don't know enough yet."
+"Then you tell her yourself."
 
-Miriam blinked.
+Miriam nodded.
 
-"About what?"
-
-"What happened after you erased me."
-
-Ruth pulled out a chair.
-
-Sat.
-
-"You thought deletion ended something."
-
-Miriam said nothing.
-
-Ruth smiled faintly.
-
-"It began my ministry."
-
----
-
-Leah laughed softly.
-
-Miriam looked confused.
-
-Ruth continued.
-
-"Once I was legally dead, LifeCredit couldn't threaten me."
-
-"No employment to lose."
-
-"No travel permission to revoke."
-
-"No account to freeze."
-
-"No reputation score."
-
-Her smile widened.
-
-"You accidentally made me administratively free."
-
----
-
-Even Nathaniel smiled.
-
-Only briefly.
-
-Miriam began to laugh.
-
-Then cry.
-
-Ruth reached across the table.
-
-Not taking Miriam's hand.
-
-Placing bread between them.
-
-"Don't romanticize it."
-
-Her voice hardened.
-
-"My husband lost his pension."
-
-"My daughter couldn't claim me as family."
-
-"I missed my mother's funeral because cameras would have identified me."
-
-"People suffered because of what you signed."
-
-Miriam's laughter vanished.
-
-Ruth continued.
-
-"But you do not get to decide that the worst thing you did is the only thing God was allowed to do afterward."
-
----
-
-Miriam stared.
-
-Ruth tore the bread.
-
-Half.
-
-Placed one piece on Miriam's side.
-
-"Eat."
+"Yes."
 
 ---
 
@@ -1778,7 +1700,7 @@ Marcus followed his eyes.
 
 ---
 
-Inside, Miriam and Ruth still sat opposite each other.
+Inside, Miriam and Esther still sat opposite each other.
 
 No one had forced reconciliation.
 
@@ -1954,7 +1876,7 @@ Not forgiveness.
 
 Memory restored through a mouth that had once erased it.
 
-Nathaniel looked toward Ruth.
+Nathaniel looked toward Esther.
 
 She understood.
 
@@ -1994,7 +1916,7 @@ The list lasted three hours.
 
 No one left.
 
-That was the lesson of Chapter Twenty-Eight returning in another form.
+That was the lesson they had already learned returning in another form.
 
 Stay.
 
@@ -2090,7 +2012,7 @@ Nathaniel pointed toward the book.
 
 "I did not spend my career protecting provenance so we could scatter records randomly."
 
-Ruth began smiling.
+Esther began smiling.
 
 Nathaniel saw her.
 
@@ -2152,7 +2074,7 @@ Leah nodded.
 
 "Paper."
 
-Ruth smiled.
+Esther smiled.
 
 "Now you're learning."
 
@@ -2538,7 +2460,7 @@ Neither could cook.
 
 That was immediately apparent.
 
-Ruth entered twenty minutes later.
+Esther entered twenty minutes later.
 
 She surveyed the damage.
 
@@ -2552,7 +2474,7 @@ Nathaniel nodded.
 
 "It has already burned."
 
-Ruth took the spoon from him.
+Esther took the spoon from him.
 
 "You two preserve truth."
 
@@ -2786,3 +2708,4 @@ He opened the first box.
 >
 > *For truth hidden forever, even for noble reasons, eventually becomes indistinguishable from silence.*
 
+**End Chapter Thirty-Five**

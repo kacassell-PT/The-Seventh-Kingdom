@@ -2,7 +2,7 @@
 
 ## CHAPTER TWENTY-ONE
 
-### The Empty Chair
+## Who Made You?
 
 > **From *The Testament of Light* - Fragment XXI**
 >
@@ -1727,3 +1727,15 @@ ORACLE did not classify emptiness as absence.
 > *The idol's greatest terror is not that men will destroy it.*
 >
 > *It is that they will remember they made it.*
+
+---
+
+> **From *The Testament of Light* — Margin XXI**
+>
+> *The maker is never made greater by bowing to what his hands have made.*
+>
+> *Ask every created thing who made it.*
+>
+> *Then ask yourself why you obey it.*
+
+**End Chapter Twenty-One**

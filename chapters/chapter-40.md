@@ -1856,9 +1856,9 @@ The broadcast had not completed the Twelve.
 
 Good.
 
-Book One would not end with completion.
+Their work had never depended upon completion.
 
-It would end with commission.
+The commission had already begun.
 
 ---
 
@@ -1888,33 +1888,7 @@ Then one final page.
 
 Completely blank.
 
-Slowly, a heading emerged.
-
-## **BOOK TWO**
-
-No subtitle.
-
-Not yet.
-
-Leah stared.
-
-"It knows there are books?"
-
-Nathaniel looked offended.
-
-"Apparently even prophecy understands structure."
-
----
-
-Michael laughed.
-
-Then the page beneath it filled.
-
-Not plot.
-
-Not instruction.
-
-A single sentence.
+Slowly, a single sentence emerged.
 
 > **NOW GO INTO THE KINGDOMS OF MEN AND TEACH THEM TO RECOGNIZE THE KING.**
 
@@ -2188,17 +2162,19 @@ Then wrote:
 
 **STATUS: DISPUTED**
 
-A hidden process changed it.
+A second entry appeared beneath it.
 
-Not ORACLE.
-
-Not human command.
+No source identifier.
 
 One word.
 
 **COMING.**
 
-ORACLE froze.
+ORACLE marked the entry:
+
+**SOURCE: UNKNOWN.**
+
+Then froze.
 
 ---
 
@@ -2351,3 +2327,5 @@ And seven years of faithfulness waiting beyond the dawn.
 # END OF BOOK ONE
 
 ## *THE SEVENTH KINGDOM*
+
+**End Chapter Forty**

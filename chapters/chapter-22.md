@@ -1655,3 +1655,5 @@ It preserved them.
 > *A throne questioned is still a throne.*
 >
 > *And wounded kingdoms are often most dangerous just before they fall.*
+
+**End Chapter Twenty-Two**

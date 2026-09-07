@@ -1576,7 +1576,7 @@ Not from the Carters.
 
 Washington.
 
-Ruth Okafor's network.
+Esther Okafor's network.
 
 Leah decoded.
 
@@ -1690,7 +1690,7 @@ Then he reached the final line.
 
 Nathaniel stared.
 
-Ruth Okafor sat beside him.
+Esther Okafor sat beside him.
 
 "Well?"
 
@@ -1710,7 +1710,7 @@ Nathaniel laughed bitterly.
 
 "I'd rather sit with ORACLE."
 
-Ruth smiled.
+Esther smiled.
 
 "That's dramatic."
 
@@ -1724,7 +1724,7 @@ Nathaniel looked toward the Archive cases surrounding them.
 
 "What if I can't forgive her?"
 
-Ruth shrugged.
+Esther shrugged.
 
 "Then don't lie."
 
@@ -2117,3 +2117,5 @@ it intended to make room for them.
 > *The Father was not minimizing the far country.*
 >
 > *He was declaring that the far country no longer owned his son.*
+
+**End Chapter Thirty-Four**

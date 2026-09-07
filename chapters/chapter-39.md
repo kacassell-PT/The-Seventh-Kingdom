@@ -66,7 +66,7 @@ Nathaniel closed his eyes.
 
 Nathaniel stared.
 
-"You moved a seventeenth-century archival container because it inconvenienced your seating arrangement?"
+"You moved a original Remnant archival container because it inconvenienced your seating arrangement?"
 
 Noah shrugged.
 
@@ -212,7 +212,7 @@ Nathaniel knelt.
 
 "No."
 
-Nathaniel looked toward Ruth Okafor.
+Nathaniel looked toward Esther Okafor.
 
 She was teaching Rebecca how to index administrative-death records.
 
@@ -1436,7 +1436,7 @@ Sarah.
 
 Thomas.
 
-Ruth.
+Ruth Freeman.
 
 People from the Ridge.
 
@@ -2856,7 +2856,7 @@ Then:
 
 Michael opened *The Testament of Light.*
 
-Chapter Forty's fragment appeared before Chapter Forty existed.
+A fresh fragment appeared on the next page.
 
 Only one line.
 
@@ -2914,7 +2914,7 @@ The system that once broadcast ORACLE's revelation to the world.
 
 The architecture he helped build.
 
-He understood what Chapter Forty would require.
+He understood what tomorrow would require.
 
 Not destroying it.
 
@@ -3006,3 +3006,4 @@ Now it would hear the witnesses.
 >
 > *spend what remains of your life upon it.*
 
+**End Chapter Thirty-Nine**

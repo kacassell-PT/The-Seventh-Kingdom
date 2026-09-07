@@ -818,7 +818,7 @@ Marcus smiled.
 
 In Washington, Nathaniel Cole met thirty-seven people who remembered.
 
-Ruth Okafor introduced them without titles.
+Esther Okafor introduced them without titles.
 
 That irritated him initially.
 
@@ -842,7 +842,7 @@ Instead:
 
 "Thomas."
 
-"Ruth."
+"Esther."
 
 "Imani."
 
@@ -864,7 +864,7 @@ The same soup.
 
 The same bread.
 
-Ruth placed the Archive drive in the center.
+Esther placed the Archive drive in the center.
 
 Nathaniel stared at it.
 
@@ -880,7 +880,7 @@ He frowned.
 
 "What does that mean?"
 
-Ruth smiled.
+Esther smiled.
 
 "We gave one to each person responsible for duplicating it."
 
@@ -900,7 +900,7 @@ Nathaniel stared.
 
 "Then why?"
 
-Ruth tore bread.
+Esther tore bread.
 
 "Because centralized truth is one raid away from silence."
 
@@ -922,7 +922,7 @@ Nathaniel hated how much sense it made.
 
 "Then who protects integrity?"
 
-Ruth looked around the table.
+Esther looked around the table.
 
 "People."
 
@@ -934,7 +934,7 @@ Nathaniel laughed.
 
 "Then why trust them?"
 
-Ruth shook her head.
+Esther shook her head.
 
 "We don't."
 
@@ -958,7 +958,7 @@ A young woman entered.
 
 Breathing hard.
 
-"Ruth."
+"Esther."
 
 Every face changed.
 
@@ -984,7 +984,7 @@ Nathaniel went pale.
 
 "They're locking history."
 
-Ruth nodded.
+Esther nodded.
 
 "Because of the release."
 
@@ -2257,3 +2257,5 @@ He picked up the last loaf.
 > *When the Beast demands worship, break bread.*
 >
 > *The Kingdom often appears weakest at the exact moment it has become most dangerous to hell.*
+
+**End Chapter Thirty-One**

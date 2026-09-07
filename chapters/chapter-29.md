@@ -414,7 +414,7 @@ he crossed out the title.
 
 Nathaniel Cole had expected an underground bunker.
 
-Instead Ruth Okafor took him to a church.
+Instead Esther Okafor took him to a church.
 
 An actual church.
 
@@ -430,7 +430,7 @@ Nathaniel stopped across the street.
 
 "That's your safe house?"
 
-Ruth kept walking.
+Esther kept walking.
 
 "No."
 
@@ -452,7 +452,7 @@ Nathaniel froze.
 
 "Unlocked?"
 
-Ruth smiled.
+Esther smiled.
 
 "Disturbing, isn't it?"
 
@@ -484,7 +484,7 @@ At the far end of the room...
 
 people were eating soup.
 
-Nathaniel looked at Ruth.
+Nathaniel looked at Esther.
 
 "What is this?"
 
@@ -502,7 +502,7 @@ Almost.
 
 A woman approached carrying bowls.
 
-"Ruth."
+"Esther."
 
 They embraced.
 
@@ -510,7 +510,7 @@ Then she looked at Nathaniel.
 
 "New?"
 
-Ruth nodded.
+Esther nodded.
 
 "Very."
 
@@ -576,7 +576,7 @@ Someone simply put bread beside his bowl.
 
 Nathaniel stared at it.
 
-Ruth sat opposite him.
+Esther sat opposite him.
 
 "Something wrong?"
 
@@ -588,7 +588,7 @@ He shook his head.
 
 "Feed people."
 
-Ruth waited.
+Esther waited.
 
 "Anyone."
 
@@ -598,7 +598,7 @@ His eyes remained on the bread.
 
 ---
 
-Ruth said nothing.
+Esther said nothing.
 
 Nathaniel laughed once.
 
@@ -1916,7 +1916,7 @@ And ate.
 
 In Washington, Nathaniel Cole sat at another table.
 
-Ruth placed a small metal drive beside his bowl.
+Esther placed a small metal drive beside his bowl.
 
 "The Archive."
 
@@ -1934,7 +1934,7 @@ He touched the drive.
 
 "Where?"
 
-Ruth looked around the church basement.
+Esther looked around the church basement.
 
 "Everywhere."
 
@@ -1946,7 +1946,7 @@ She smiled.
 
 "Then what am I preserving?"
 
-Ruth pushed the bread toward him.
+Esther pushed the bread toward him.
 
 "Memory."
 
@@ -2161,3 +2161,5 @@ Three words appeared.
 **YOU ARE INSIDE.**
 
 Every light in the chamber went dark.
+
+**End Chapter Twenty-Nine**

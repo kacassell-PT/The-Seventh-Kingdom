@@ -1768,7 +1768,7 @@ Beneath it hung a small wooden cross.
 
 Nathaniel stared.
 
-"My name is Ruth Okafor."
+"My name is Esther Okafor."
 
 He said nothing.
 
@@ -1806,7 +1806,7 @@ An old stone chapel.
 
 Nathaniel's heart quickened.
 
-Ruth said:
+Esther said:
 
 "You preserved the Archive."
 
@@ -1961,3 +1961,5 @@ He smiled.
 > *Do not confuse the size of the crowd with the size of the Kingdom.*
 >
 > *Five loaves in surrendered hands have always been enough to trouble an empire.*
+
+**End Chapter Twenty-Eight**
