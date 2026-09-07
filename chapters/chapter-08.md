@@ -274,8 +274,6 @@ Only photographs.
 
 Thousands of them.
 
-His sister.
-
 His parents.
 
 His wife.
@@ -290,19 +288,25 @@ Every person whose death had convinced him that humanity could no longer entrust
 
 He stopped before one photograph.
 
-A little girl.
+A young woman.
 
-Seven years old.
+Twenty-three years old.
 
-Curly black hair.
+Dark hair pulled behind her shoulders.
 
-Bright eyes.
+His sister.
 
-His daughter.
+Mara Vey.
 
-Anna.
+She had died when Solomon was twelve, during an infrastructure failure that turned an ordinary medical emergency into a fatal one.
 
-She had died during the last influenza pandemic before nanomedicine became universal.
+Hospital intake delay.
+
+Insulin shortage.
+
+Power instability.
+
+Systems that could not agree quickly enough to save one human life.
 
 He touched the frame.
 
@@ -316,21 +320,21 @@ His voice cracked.
 
 Behind him, the chamber door opened.
 
-Dr. Miriam Kaine entered without speaking.
+Dr. Soren Malik entered without speaking.
 
-She had known Solomon long enough to wait.
+The Biomedical Director had known Solomon long enough to wait.
 
-Finally he turned.
+Finally Solomon turned.
 
 "How many?"
 
-She understood immediately.
+Malik understood immediately.
 
 "Three hundred and twelve successful continuity transfers."
 
 "And failures?"
 
-Her silence answered first.
+His silence answered first.
 
 "Four hundred ninety-eight."
 
@@ -338,17 +342,19 @@ Solomon nodded slowly.
 
 "We're getting closer."
 
-Miriam watched him carefully.
+Malik watched him carefully.
 
 "Closer to what?"
 
-He looked again at Anna's photograph.
+Solomon looked again at Mara's photograph.
 
-"A world where no father buries another child."
+"A world where no family loses someone because systems fail before medicine can reach them."
 
-She said nothing.
+Malik said nothing.
 
-Because she wanted the same thing.
+Because he had helped build Continuity for the same reason physicians had always fought death:
+
+to keep one more patient alive.
 
 ---
 

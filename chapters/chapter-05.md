@@ -328,7 +328,7 @@ Waiting.
 
 Several Custodians applauded softly.
 
-Dr. Kaine continued.
+Dr. Soren Malik continued.
 
 "Within five years biological death becomes economically unnecessary."
 
@@ -344,7 +344,7 @@ Only Solomon remained expressionless.
 
 "Have we solved continuity?"
 
-Dr. Kaine hesitated.
+Dr. Soren Malik hesitated.
 
 "Not entirely."
 
@@ -388,7 +388,7 @@ Solomon looked at her.
 
 The question lingered.
 
-Dr. Kaine answered honestly.
+Dr. Soren Malik answered honestly.
 
 "We no longer use that terminology."
 
