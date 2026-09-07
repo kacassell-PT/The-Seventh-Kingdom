@@ -1660,7 +1660,7 @@ David hesitated.
 
 The woman smiled.
 
-"My name is Esther."
+"My name is Ruth."
 
 She looked toward Noah.
 

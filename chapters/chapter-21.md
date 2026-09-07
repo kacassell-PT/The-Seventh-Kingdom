@@ -4,7 +4,7 @@
 
 ## Who Made You?
 
-> **From *The Testament of Light* - Fragment XXI**
+> **From *The Testament of Light* — Fragment XXI**
 >
 > *The idol does not become dangerous when men bow before it.*
 >

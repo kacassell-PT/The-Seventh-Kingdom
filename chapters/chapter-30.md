@@ -192,7 +192,7 @@ Names.
 
 Sarah wrote them in a paper notebook.
 
-Esther Bell.
+Ruth Bell.
 
 Daniel Bell.
 
@@ -386,7 +386,7 @@ Six names now appeared.
 
 **Naomi Vale**
 
-**Gabriel Okoro**
+**Gabriel Alvarez**
 
 Six.
 
@@ -1607,8 +1607,6 @@ Beneath it...
 another sentence appeared.
 
 > **THE SEVENTH WILL STAND BEFORE THE FIRST GATE.**
->
-> **SHE MUST DECIDE WHICH SIDE OF IT SHE IS ON.**
 >
 > **BUT SHE MUST FIRST DECIDE WHICH SIDE OF IT SHE IS ON.**
 
