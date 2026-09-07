@@ -1,0 +1,107 @@
+name: Book One Final Canon Audit
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/book-one-final-canon-audit.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Audit all forty chapters
+        shell: python
+        run: |
+          from pathlib import Path
+          import re
+          from collections import defaultdict
+
+          files=[]
+          for n in range(1,41):
+              p=Path(f'chapters/chapter-{n:02d}.md')
+              if not p.exists():
+                  p=Path(f'chapters/chapter-{n}.md')
+              if not p.exists():
+                  raise SystemExit(f'MISSING CHAPTER {n}')
+              files.append((n,p,p.read_text(encoding='utf-8')))
+
+          findings=[]
+          banned=[
+              'Anna Vey','Gabriel Okoro','Ruth Okafor','Dr. Miriam Kaine',
+              'Eight identified names','seventeenth-century archival container',
+              '## BOOK TWO','It knows there are books?'
+          ]
+          for term in banned:
+              hits=[n for n,p,t in files if term in t]
+              if hits: findings.append(f'BANNED TERM {term!r}: chapters {hits}')
+
+          # Title extraction / duplicates.
+          titles=defaultdict(list)
+          title_rows=[]
+          for n,p,t in files:
+              m=re.search(r'^##\s+(.+)$',t,re.M)
+              title=m.group(1).strip() if m else 'MISSING TITLE'
+              titles[title].append(n)
+              title_rows.append((n,title))
+          for title,chs in titles.items():
+              if len(chs)>1:
+                  findings.append(f'DUPLICATE TITLE {title!r}: chapters {chs}')
+
+          # Known locked titles.
+          expected={
+              17:'The Healer',18:'Bread',19:'The Empty Chair',20:'The Question ORACLE Could Not Answer',
+              21:'Who Made You?',22:'Protocol One',23:'The Witness File',24:'Whose Image Do You Bear?',
+              25:'The Physician',26:'The Chair Waits',27:'The Cost of the Table',28:'Stay',29:'The Table',
+              30:'The Gates',31:'The Door',32:'The Open House',33:'Confession',34:'Homecoming',
+              35:'The Archivist Comes',36:'The Names',37:'The Body',38:'Solomon',39:'The Fifth Remnant',40:'The Seventh Kingdom'
+          }
+          for n,title in expected.items():
+              actual=dict(title_rows)[n]
+              if actual!=title: findings.append(f'TITLE MISMATCH ch {n}: {actual!r} != {title!r}')
+
+          # Character-role/name checks.
+          alltext='\n'.join(t for _,_,t in files)
+          for required in ['Gabriel Alvarez','Mara Vey','Esther Okafor','Ruth Freeman','Miriam Kaine']:
+              if required not in alltext: findings.append(f'MISSING REQUIRED CANON NAME: {required}')
+
+          # Early authoritative gathering must be four canonical names.
+          t15=files[14][2]
+          for name in ['Elijah Cross','Marcus Reed','Michael Tesfaye','Nathaniel Cole']:
+              if name not in t15: findings.append(f'CH15 FIRST GATHERING MISSING {name}')
+
+          # Chapter 14 must use anomaly language, not confirmed roster language.
+          if 'Eight high-priority convergence anomalies.' not in files[13][2]:
+              findings.append('CH14 convergence-anomaly repair missing')
+
+          # Chapter 30 gate wording.
+          if 'THE SEVENTH WILL STAND BEFORE THE FIRST GATE.' not in files[29][2]:
+              findings.append('CH30 gate wording missing')
+
+          report=['# Book One Final Canon Audit','',f'Chapters checked: {len(files)}','', '## Titles','']
+          report += [f'- {n}: {title}' for n,title in title_rows]
+          report += ['', '## Findings','']
+          if findings:
+              report += [f'- {x}' for x in findings]
+              status='REVIEW REQUIRED'
+          else:
+              report += ['- No known canon discrepancies detected by the final audit.']
+              status='PASS'
+          report += ['',f'## Status: {status}','']
+          Path('BOOK-ONE-CANON-AUDIT.md').write_text('\n'.join(report),encoding='utf-8')
+          if findings:
+              print('\n'.join(findings))
+              raise SystemExit(1)
+
+      - name: Commit audit report
+        if: success()
+        run: |
+          git config user.name "Showrunner Canon Audit"
+          git config user.email "actions@users.noreply.github.com"
+          git add BOOK-ONE-CANON-AUDIT.md
+          git commit -m "Add passing Book One final canon audit" || exit 0
+          git push
