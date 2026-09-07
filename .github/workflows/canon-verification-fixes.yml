@@ -1,0 +1,68 @@
+name: Book One Final Canon Verification Fixes
+
+on:
+  push:
+    paths:
+      - '.github/workflows/canon-verification-fixes.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  verify-fix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Apply verification fixes
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          def edit(n, replacements):
+              p = Path('chapters') / f'chapter-{n}.md'
+              text = p.read_text(encoding='utf-8')
+              for old, new in replacements:
+                  if old in text:
+                      text = text.replace(old, new)
+                      print(f'chapter {n}: fixed {old[:50]!r}')
+                  else:
+                      print(f'chapter {n}: target already clean or not found: {old[:50]!r}')
+              p.write_text(text, encoding='utf-8')
+
+          # Global Ruth->Esther repair accidentally changed two unrelated Ruths.
+          edit(30, [
+              ('Esther Bell.\n\nDaniel Bell.', 'Ruth Bell.\n\nDaniel Bell.'),
+              ('**Gabriel Okoro**', '**Gabriel Alvarez**'),
+              ('> **SHE MUST DECIDE WHICH SIDE OF IT SHE IS ON.**\n>\n> **BUT SHE MUST FIRST DECIDE WHICH SIDE OF IT SHE IS ON.**',
+               '> **BUT SHE MUST FIRST DECIDE WHICH SIDE OF IT SHE IS ON.**'),
+          ])
+
+          # The woman helping the Carter family is Ruth Freeman, not Esther Okafor.
+          edit(33, [
+              ('The woman smiled.\n\n"My name is Esther."\n\nShe looked toward Noah.',
+               'The woman smiled.\n\n"My name is Ruth."\n\nShe looked toward Noah.'),
+          ])
+
+          # Standardize the remaining Fragment XXI dash.
+          edit(21, [
+              ('> **From *The Testament of Light* - Fragment XXI**',
+               '> **From *The Testament of Light* — Fragment XXI**'),
+          ])
+
+          print('Final verification fixes applied.')
+          PY
+      - name: Commit verification fixes
+        shell: bash
+        run: |
+          if git diff --quiet -- chapters; then
+            echo 'No verification fixes needed.'
+            exit 0
+          fi
+          git config user.name 'Showrunner Canon Verification'
+          git config user.email 'actions@users.noreply.github.com'
+          git add chapters
+          git commit -m 'Fix issues found in final Book One verification'
+          git push
