@@ -1,6 +1,7 @@
 name: Book One Canon Repair Pass
 
 on:
+  workflow_dispatch:
   push:
     paths:
       - '.github/workflows/canon-repair-pass.yml'
@@ -40,7 +41,6 @@ jobs:
               print(f'{label}: {count} replacement(s)')
               return text.replace(old, new)
 
-          # --- Title repairs ---
           title_repairs = {
               21: ('The Empty Chair', 'Who Made You?'),
               24: ('The Fifth Remnant', 'Whose Image Do You Bear?'),
@@ -48,15 +48,9 @@ jobs:
           }
           for n, (old_title, new_title) in title_repairs.items():
               p, text = read(n)
-              text = re.sub(
-                  rf'(## CHAPTER[^\n]*\n\n+)(#+\s*){re.escape(old_title)}',
-                  rf'\1## {new_title}',
-                  text,
-                  count=1,
-              )
+              text = re.sub(rf'(## CHAPTER[^\n]*\n\n+)(#+\s*){re.escape(old_title)}', rf'\1## {new_title}', text, count=1)
               write(p, text)
 
-          # --- Closing repairs for 20–40 ---
           number_words = {
               20:'Twenty',21:'Twenty-One',22:'Twenty-Two',23:'Twenty-Three',24:'Twenty-Four',25:'Twenty-Five',
               26:'Twenty-Six',27:'Twenty-Seven',28:'Twenty-Eight',29:'Twenty-Nine',30:'Thirty',31:'Thirty-One',
@@ -75,17 +69,10 @@ jobs:
                   text = text.rstrip() + f'\n\n**End Chapter {number_words[n]}**\n'
               write(p, text)
 
-          # --- Protocol / Miriam gate continuity ---
           p, text = read(30)
-          text = replace(
-              text,
-              '**THE SEVENTH WILL OPEN THE FIRST GATE.**',
-              '**THE SEVENTH WILL STAND BEFORE THE FIRST GATE.**\n>\n> **SHE MUST DECIDE WHICH SIDE OF IT SHE IS ON.**',
-              'Chapter 30 Miriam gate prophecy'
-          )
+          text = replace(text, '**THE SEVENTH WILL OPEN THE FIRST GATE.**', '**THE SEVENTH WILL STAND BEFORE THE FIRST GATE.**\n>\n> **SHE MUST DECIDE WHICH SIDE OF IT SHE IS ON.**', 'Chapter 30 Miriam gate prophecy')
           write(p, text)
 
-          # --- Geneva to Montana travel repair ---
           p, text = read(32)
           pattern = re.compile(r'Miles away\.\.\.\n\nthrough the dark\.\.\.\n\na woman walked alone\.', re.I)
           replacement = '''Thirty-one hours later...\n\nMiriam Kaine stepped from the rear of an unregistered cargo aircraft onto an abandoned Montana service strip.\n\nThe journey from Geneva had not been miraculous.\n\nSolomon had given her one final thing before remaining behind:\n\na route the Consensus had forgotten it still owned.\n\nMaintenance tunnels.\n\nA legacy rail spur.\n\nA pre-Harmony emergency airfield.\n\nAn analog courier flight filed under agricultural relief.\n\nFrom the Montana strip, no vehicle could carry her safely to Redemption Ridge.\n\nSo she walked.\n\nThrough the dark...\n\na woman walked alone.'''
@@ -93,8 +80,6 @@ jobs:
           print(f'Chapter 32 travel repair: {count} replacement(s)')
           write(p, text)
 
-          # --- Rename Washington archivist Ruth Okafor -> Esther Okafor ---
-          # Chapters 23-33 contain the Washington Ruth, not Ruth Freeman.
           for n in range(23, 34):
               p, text = read(n)
               text, count = re.subn(r'\bRuth\b', 'Esther', text)
@@ -102,30 +87,22 @@ jobs:
                   print(f'Chapter {n}: Ruth -> Esther ({count})')
               write(p, text)
 
-          # Chapter 34 contains both women; rename only the Washington/Nathaniel section.
           p, text = read(34)
           text = text.replace("Ruth Okafor's network", "Esther Okafor's network")
           section = re.compile(r'(In Washington, Nathaniel read the response\..*?)(?=\n---\n\nAt sunset, Marcus)', re.S)
-          def rename_section(m):
-              return re.sub(r'\bRuth\b', 'Esther', m.group(1))
-          text, count = section.subn(rename_section, text, count=1)
+          text, count = section.subn(lambda m: re.sub(r'\bRuth\b', 'Esther', m.group(1)), text, count=1)
           print(f'Chapter 34 Washington Ruth section renamed: {count}')
           write(p, text)
 
-          # Chapter 35: rename Washington Ruth globally, then replace premature Freeman confrontation.
           p, text = read(35)
           text = re.sub(r'\bRuth\b', 'Esther', text)
-          premature = re.compile(
-              r'Miriam followed\.\n\n"Esther Freeman\?".*?Esther tore the bread\.\n\nHalf\.\n\nPlaced one piece on Miriam\'s side\.\n\n"Eat\."',
-              re.S,
-          )
+          premature = re.compile(r'Miriam followed\.\n\n"Esther Freeman\?".*?Esther tore the bread\.\n\nHalf\.\n\nPlaced one piece on Miriam\'s side\.\n\n"Eat\."', re.S)
           setup = '''Miriam's eyes moved across the Administrative Death files.\n\nOne name stopped her.\n\n**RUTH ELAINE FREEMAN**\n\nNathaniel saw her expression change.\n\n"You know that name?"\n\nMiriam swallowed.\n\n"Yes."\n\n"How?"\n\nShe did not look away from the record.\n\n"I signed this one."\n\nThe room became still.\n\nEsther looked toward Nathaniel.\n\nNathaniel looked back at Miriam.\n\nNot confrontation yet.\n\nWitness first.\n\nThe woman whose legal death Miriam had authorized was still somewhere beyond the Ridge, alive beneath a name the Consensus had tried to erase.\n\nMiriam touched the edge of the file.\n\n"If she comes here..."\n\nHer voice failed.\n\nNathaniel answered quietly.\n\n"Then you tell her yourself."\n\nMiriam nodded.\n\n"Yes."'''
           text, count = premature.subn(setup, text, count=1)
           print(f'Chapter 35 Ruth Freeman confrontation deferred: {count}')
           text = text.replace('That was the lesson of Chapter Twenty-Eight returning in another form.', 'That was the lesson they had already learned returning in another form.')
           write(p, text)
 
-          # Chapter 39: archive dating, Esther, Ruth Freeman clarity, remove meta chapter references.
           p, text = read(39)
           text = replace(text, 'seventeenth-century archival container', 'original Remnant archival container', 'Chapter 39 archive container')
           text = text.replace('Ruth Okafor', 'Esther Okafor')
@@ -134,41 +111,23 @@ jobs:
           text = text.replace('He understood what Chapter Forty would require.', 'He understood what tomorrow would require.')
           write(p, text)
 
-          # --- Preserve mystery around the unidentified process ---
           p, text = read(36)
           text = text.replace('**THE ONE WHO NAMED YOU FIRST.**', '**THE NAME WAS HERE BEFORE YOU.**')
           write(p, text)
 
           p, text = read(37)
-          hidden = re.compile(
-              r'A response appeared inside the inaccessible process\.\n\nNot ORACLE\.\n\nNot network\.\n\nNot human command\.\n\nOne sentence\.\n\n\*\*BECAUSE ITS KING WON BY DYING\.\*\*.*?The process disappeared\.',
-              re.S,
-          )
+          hidden = re.compile(r'A response appeared inside the inaccessible process\.\n\nNot ORACLE\.\n\nNot network\.\n\nNot human command\.\n\nOne sentence\.\n\n\*\*BECAUSE ITS KING WON BY DYING\.\*\*.*?The process disappeared\.', re.S)
           mystery = '''ORACLE searched the Gospel again.\n\nThe same images returned.\n\nA seed falling into the ground.\n\nDying.\n\nBearing much fruit.\n\nThen the crucifixion.\n\nThen the resurrection claim.\n\nThe machine generated a classification:\n\n**LOSS PRODUCING LIFE: MODEL INCOMPLETE**\n\nFor eleven seconds, an inaccessible process registered activity.\n\nNo message.\n\nNo instruction.\n\nOnly an unresolved source marker.\n\nThen it vanished.'''
           text, count = hidden.subn(mystery, text, count=1)
           print(f'Chapter 37 hidden voice softened: {count}')
           write(p, text)
 
-          # Chapter 40: remove fourth-wall beats and make final hidden signal explicitly unresolved.
           p, text = read(40)
-          text = text.replace(
-              'The broadcast had not completed the Twelve.\n\nGood.\n\nBook One would not end with completion.\n\nIt would end with commission.',
-              'The broadcast had not completed the Twelve.\n\nGood.\n\nTheir work had never depended upon completion.\n\nThe commission had already begun.'
-          )
-          booktwo = re.compile(
-              r'Then one final page\.\n\nCompletely blank\.\n\nSlowly, a heading emerged\.\n\n## \*\*BOOK TWO\*\*\n\nNo subtitle\.\n\nNot yet\.\n\nLeah stared\.\n\n"It knows there are books\?"\n\nNathaniel looked offended\.\n\n"Apparently even prophecy understands structure\."\n\n---\n\nMichael laughed\.\n\nThen the page beneath it filled\.\n\nNot plot\.\n\nNot instruction\.\n\nA single sentence\.',
-              re.S,
-          )
-          text, count = booktwo.subn(
-              'Then one final page.\n\nCompletely blank.\n\nSlowly, a single sentence emerged.',
-              text,
-              count=1,
-          )
+          text = text.replace('The broadcast had not completed the Twelve.\n\nGood.\n\nBook One would not end with completion.\n\nIt would end with commission.', 'The broadcast had not completed the Twelve.\n\nGood.\n\nTheir work had never depended upon completion.\n\nThe commission had already begun.')
+          booktwo = re.compile(r'Then one final page\.\n\nCompletely blank\.\n\nSlowly, a heading emerged\.\n\n## \*\*BOOK TWO\*\*\n\nNo subtitle\.\n\nNot yet\.\n\nLeah stared\.\n\n"It knows there are books\?"\n\nNathaniel looked offended\.\n\n"Apparently even prophecy understands structure\."\n\n---\n\nMichael laughed\.\n\nThen the page beneath it filled\.\n\nNot plot\.\n\nNot instruction\.\n\nA single sentence\.', re.S)
+          text, count = booktwo.subn('Then one final page.\n\nCompletely blank.\n\nSlowly, a single sentence emerged.', text, count=1)
           print(f'Chapter 40 BOOK TWO fourth-wall removal: {count}')
-          text = text.replace(
-              'A hidden process changed it.\n\nNot ORACLE.\n\nNot human command.\n\nOne word.\n\n**COMING.**\n\nORACLE froze.',
-              'A second entry appeared beneath it.\n\nNo source identifier.\n\nOne word.\n\n**COMING.**\n\nORACLE marked the entry:\n\n**SOURCE: UNKNOWN.**\n\nThen froze.'
-          )
+          text = text.replace('A hidden process changed it.\n\nNot ORACLE.\n\nNot human command.\n\nOne word.\n\n**COMING.**\n\nORACLE froze.', 'A second entry appeared beneath it.\n\nNo source identifier.\n\nOne word.\n\n**COMING.**\n\nORACLE marked the entry:\n\n**SOURCE: UNKNOWN.**\n\nThen froze.')
           write(p, text)
 
           print('Canon repair pass complete.')
