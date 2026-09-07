@@ -1,0 +1,82 @@
+name: Book One Final Audit Fixes
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/book-one-final-audit-fixes.yml'
+permissions:
+  contents: write
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fix remaining canon artifacts and write audit
+        shell: python
+        run: |
+          from pathlib import Path
+          import re
+          from collections import defaultdict
+
+          def chapter_path(n):
+              p=Path(f'chapters/chapter-{n:02d}.md')
+              return p if p.exists() else Path(f'chapters/chapter-{n}.md')
+
+          # Remaining stale names found by the full audit.
+          for n in [36,40]:
+              p=chapter_path(n); t=p.read_text(encoding='utf-8')
+              t=t.replace('Ruth Okafor','Esther Okafor')
+              p.write_text(t,encoding='utf-8')
+          p=chapter_path(5); t=p.read_text(encoding='utf-8')
+          t=t.replace('Dr. Miriam Kaine','Miriam Kaine')
+          p.write_text(t,encoding='utf-8')
+
+          # Synchronize manuscript mirrors when present.
+          for n in [5,36,40]:
+              src=chapter_path(n).read_text(encoding='utf-8')
+              for dest in [Path(f'books/book-01-the-fifth-remnant/manuscript/chapter-{n:02d}.md'),Path(f'books/book-01/chapters/chapter-{n:02d}.md')]:
+                  if dest.exists(): dest.write_text(src,encoding='utf-8')
+
+          files=[(n,chapter_path(n),chapter_path(n).read_text(encoding='utf-8')) for n in range(1,41)]
+          findings=[]
+          banned=['Anna Vey','Gabriel Okoro','Ruth Okafor','Dr. Miriam Kaine','Eight identified names','seventeenth-century archival container','## BOOK TWO','It knows there are books?']
+          for term in banned:
+              hits=[n for n,p,t in files if term in t]
+              if hits: findings.append(f'BANNED TERM {term!r}: chapters {hits}')
+
+          # Extract chapter title as first heading after CHAPTER heading; later files use ## for both.
+          title_rows=[]; titles=defaultdict(list)
+          for n,p,t in files:
+              hs=re.findall(r'^#{2,3}\s+(.+)$',t,re.M)
+              hs=[h.strip() for h in hs if not h.strip().startswith('CHAPTER ')]
+              title=hs[0] if hs else 'MISSING TITLE'
+              title_rows.append((n,title)); titles[title].append(n)
+          for title,chs in titles.items():
+              if len(chs)>1: findings.append(f'DUPLICATE TITLE {title!r}: chapters {chs}')
+
+          expected={17:'The Healer',18:'Bread',19:'The Empty Chair',20:'The Question ORACLE Could Not Answer',21:'Who Made You?',22:'Protocol One',23:'The Witness File',24:'Whose Image Do You Bear?',25:'The Physician',26:'The Chair Waits',27:'The Cost of the Table',28:'Stay',29:'The Table',30:'The Gates',31:'The Door',32:'The Open House',33:'Confession',34:'Homecoming',35:'The Archivist Comes',36:'The Names',37:'The Body',38:'Solomon',39:'The Fifth Remnant',40:'The Seventh Kingdom'}
+          actual=dict(title_rows)
+          for n,title in expected.items():
+              if actual[n]!=title: findings.append(f'TITLE MISMATCH ch {n}: {actual[n]!r} != {title!r}')
+
+          alltext='\n'.join(t for _,_,t in files)
+          for required in ['Gabriel Alvarez','Mara Vey','Esther Okafor','Ruth Freeman','Miriam Kaine']:
+              if required not in alltext: findings.append(f'MISSING REQUIRED CANON NAME: {required}')
+          if 'Eight high-priority convergence anomalies.' not in files[13][2]: findings.append('CH14 anomaly wording missing')
+          if 'THE SEVENTH WILL STAND BEFORE THE FIRST GATE.' not in files[29][2]: findings.append('CH30 gate wording missing')
+          for name in ['Elijah Cross','Marcus Reed','Michael Tesfaye','Nathaniel Cole']:
+              if name not in files[14][2]: findings.append(f'CH15 gathering missing {name}')
+
+          report=['# Book One Final Canon Audit','',f'Chapters checked: {len(files)}','','## Titles','']+[f'- {n}: {title}' for n,title in title_rows]+['','## Findings','']
+          report += ([f'- {x}' for x in findings] if findings else ['- No known canon discrepancies detected by the final audit.'])
+          report += ['',f'## Status: {"REVIEW REQUIRED" if findings else "PASS"}','']
+          Path('BOOK-ONE-CANON-AUDIT.md').write_text('\n'.join(report),encoding='utf-8')
+          if findings:
+              print('\n'.join(findings)); raise SystemExit(1)
+      - name: Commit final fixes and passing audit
+        run: |
+          git config user.name "Showrunner Canon Audit"
+          git config user.email "actions@users.noreply.github.com"
+          git add chapters/ books/book-01-the-fifth-remnant/manuscript/ books/book-01/chapters/ BOOK-ONE-CANON-AUDIT.md || true
+          git commit -m "Finish Book One canon audit and fixes" || exit 0
+          git push
