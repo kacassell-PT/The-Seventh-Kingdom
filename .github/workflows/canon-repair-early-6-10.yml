@@ -1,0 +1,71 @@
+name: Early Canon Repair Chapters 6-10
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/canon-repair-early-6-10.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Repair biomedical roles and Solomon backstory
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+
+          root = Path('chapters')
+
+          def load(n):
+              p = root / f'chapter-{n:02d}.md'
+              return p, p.read_text(encoding='utf-8')
+
+          def save(p, text):
+              p.write_text(text, encoding='utf-8')
+
+          # Chapter 5: Continuity's biomedical director is Soren Malik, preserving Miriam Kaine for security architecture.
+          p, text = load(5)
+          text, c1 = re.subn(r'\bDr\. Kaine\b', 'Dr. Soren Malik', text)
+          print(f'Chapter 5 Dr. Kaine -> Dr. Soren Malik: {c1}')
+          # Only convert role references in the biomedical presentation vicinity; leave any Security Kaine references alone.
+          save(p, text)
+
+          # Chapter 8: replace the old daughter-Anna motive with the locked Mara Vey backstory,
+          # and move Continuity reporting from Miriam Kaine to Soren Malik.
+          p, text = load(8)
+          pattern = re.compile(
+              r'Director Solomon Vey stood alone inside the Chamber of Memory\..*?She said nothing\.\n\nBecause she wanted the same thing\.',
+              re.S
+          )
+          replacement = '''Director Solomon Vey stood alone inside the Chamber of Memory.\n\nUnlike the Council room, this chamber contained no technology.\n\nNo displays.\n\nNo processors.\n\nNo AI.\n\nOnly photographs.\n\nThousands of them.\n\nHis parents.\n\nHis wife.\n\nScientists.\n\nDoctors.\n\nChildren.\n\nEvery person whose death had convinced him that humanity could no longer entrust its future to chance.\n\nHe stopped before one photograph.\n\nA young woman.\n\nTwenty-three years old.\n\nDark hair pulled behind her shoulders.\n\nHis sister.\n\nMara Vey.\n\nShe had died when Solomon was twelve, during an infrastructure failure that turned an ordinary medical emergency into a fatal one.\n\nHospital intake delay.\n\nInsulin shortage.\n\nPower instability.\n\nSystems that could not agree quickly enough to save one human life.\n\nHe touched the frame.\n\nQuietly.\n\n"I'm almost finished."\n\nHis voice cracked.\n\n"I promised you."\n\nBehind him, the chamber door opened.\n\nDr. Soren Malik entered without speaking.\n\nThe Biomedical Director had known Solomon long enough to wait.\n\nFinally Solomon turned.\n\n"How many?"\n\nMalik understood immediately.\n\n"Three hundred and twelve successful continuity transfers."\n\n"And failures?"\n\nHis silence answered first.\n\n"Four hundred ninety-eight."\n\nSolomon nodded slowly.\n\n"We're getting closer."\n\nMalik watched him carefully.\n\n"Closer to what?"\n\nSolomon looked again at Mara's photograph.\n\n"A world where no family loses someone because systems fail before medicine can reach them."\n\nMalik said nothing.\n\nBecause he had helped build Continuity for the same reason physicians had always fought death:\n\nto keep one more patient alive.'''
+          text, count = pattern.subn(replacement, text, count=1)
+          print(f'Chapter 8 Solomon/Mara and biomedical role repair: {count}')
+          if count != 1:
+              raise SystemExit(f'Expected one Chapter 8 backstory replacement, got {count}')
+          save(p, text)
+
+          print('Early canon repair Chapters 6-10 complete.')
+          PY
+
+      - name: Commit repaired chapters
+        shell: bash
+        run: |
+          if git diff --quiet -- chapters; then
+            echo 'No chapter changes detected.'
+            exit 0
+          fi
+          git config user.name 'Showrunner Canon Repair'
+          git config user.email 'actions@users.noreply.github.com'
+          git add chapters/chapter-05.md chapters/chapter-08.md
+          git commit -m 'Repair Continuity roles and Solomon backstory'
+          git push
