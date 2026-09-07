@@ -1,0 +1,108 @@
+name: Early Canon Repair Chapters 1-5
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/canon-repair-early-1-5.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Apply canon repairs to chapters 1-5
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+
+          root = Path('chapters')
+
+          def load(n):
+              p = root / f'chapter-{n:02d}.md'
+              return p, p.read_text(encoding='utf-8')
+
+          def save(p, text):
+              p.write_text(text, encoding='utf-8')
+
+          def sub_once(text, pattern, replacement, label, flags=0):
+              new, count = re.subn(pattern, replacement, text, count=1, flags=flags)
+              print(f'{label}: {count}')
+              if count != 1:
+                  raise SystemExit(f'Expected exactly 1 replacement for {label}, got {count}')
+              return new
+
+          # CHAPTER 1: preserve the twelve-spark vision while removing the obsolete fixed roster.
+          p, text = load(1)
+          pattern = re.compile(
+              r'Then twelve sparks lifted from the page and hung in the air like living embers\..*?Elijah began to weep\.',
+              re.S
+          )
+          replacement = '''Then twelve sparks lifted from the page and hung in the air like living embers.\n\nSarah whispered, "The others."\n\nElijah understood only part of what he was seeing.\n\nTwelve.\n\nNot twelve names.\n\nNot a roster he could recruit.\n\nCallings.\n\nWounds.\n\nLives moving toward a table none of them yet knew existed.\n\nHe sensed a builder.\n\nA shepherd who had once carried a sword.\n\nA keeper of Scripture.\n\nAn archivist of forbidden memory.\n\nA commander who would have to choose conscience over orders.\n\nA physician tempted to confuse healing with resurrection.\n\nA servant buried deep inside the architecture of power.\n\nBeyond them were other impressions he could not name:\n\nwealth surrendered,\n\nscience humbled,\n\nmedicine restrained,\n\nprophecy tested,\n\nand one place in the pattern that remained completely hidden.\n\nNo faces.\n\nNo certainty.\n\nOnly twelve lights and the terrible knowledge that none of them belonged to Elijah.\n\nElijah began to weep.'''
+          text = sub_once(text, pattern, replacement, 'Chapter 1 twelve-spark roster repair')
+          save(p, text)
+
+          # CHAPTER 3: the wall contains collaborators/contacts, not members of the Twelve.
+          p, text = load(3)
+          pattern = re.compile(
+              r'Sarah touched the parchment fragment lying beside the terminal\.\n\n"The Spirit said twelve\."\n\nElijah looked at the wall where names had been written in chalk\.\n\nElijah Cross\.\n\nSarah Navarro\.\n\nMichael Tesfaye\.\n\nLeah Morgan\.\n\nFour names\.\n\nEight blanks\.\n\nLeah pulled up the Carter family again\.\n\n"David Carter could be one\."\n\nElijah shook his head\.\n\n"He\'s Consensus\."\n\n"So were you\."\n\nThat silenced him\.',
+              re.S
+          )
+          replacement = '''Sarah touched the parchment fragment lying beside the terminal.\n\n"The manuscript showed twelve."\n\nElijah looked at the wall where they had written names in chalk.\n\nNot the Twelve.\n\nPeople already caught in the widening fire.\n\nElijah Cross.\n\nSarah Navarro.\n\nMichael Tesfaye.\n\nLeah Morgan.\n\nSamuel Brooks.\n\nThe list was operational, not prophetic.\n\nLeah pulled up the Carter family again.\n\n"David Carter matters."\n\nElijah shook his head.\n\n"He's Consensus."\n\n"So were you."\n\nThat silenced him.'''
+          text = sub_once(text, pattern, replacement, 'Chapter 3 obsolete Twelve wall repair')
+          save(p, text)
+
+          # CHAPTER 4: modern inserted page becomes an uncertain convergence note, not an authoritative roster.
+          p, text = load(4)
+          pattern = re.compile(
+              r'Across the top:\n\n\*\*IF YOU HAVE FOUND THIS\.\.\.\*\*\n\nBelow it was a list\..*?The monk nodded\.\n\n"It has been waiting for you\."',
+              re.S
+          )
+          replacement = '''Across the top:\n\n**IF YOU HAVE FOUND THIS...**\n\nBelow it were twelve circles.\n\nMost were empty.\n\nBeside only three were handwritten names.\n\nElijah Cross.\n\nMichael Tesfaye.\n\nNathaniel Cole.\n\nMichael froze.\n\nHis own name was the second.\n\n"Who made this?"\n\nThe monk studied the page.\n\n"Someone who knew enough to watch."\n\n"Are these the Twelve?"\n\n"No."\n\nMichael looked up.\n\nThe answer came too quickly.\n\nThe monk continued.\n\n"Do not confuse a human list with the King's choosing."\n\nHe touched the empty circles.\n\n"This is evidence of convergence. Nothing more."\n\nMichael looked again at Nathaniel Cole's name.\n\n"And mine?"\n\nThe monk nodded.\n\n"It means someone noticed you before you noticed the road."'''
+          text = sub_once(text, pattern, replacement, 'Chapter 4 inserted roster repair')
+          save(p, text)
+
+          # CHAPTER 5: print-shop counting becomes network counting, not Twelve counting.
+          p, text = load(5)
+          pattern = re.compile(
+              r'Elijah Cross stood over the crude map spread across the print shop table\.\n\nSarah\.\n\nLeah\.\n\nSamuel\.\n\nFour names confirmed\.\n\nMichael missing\.\n\nDavid uncertain\.\n\nRebecca awakening\.\n\nNoah endangered\.\n\nHe rubbed his forehead\.\n\n"This isn\'t enough\."\n\nSarah looked up\.\n\n"It never was\."\n\n"The manuscript lists twelve\."\n\n"We have seven\."\n\n"Six\."\n\n"Rebecca hasn\'t chosen\."\n\nSarah smiled\.\n\n"Neither had Peter\."',
+              re.S
+          )
+          replacement = '''Elijah Cross stood over the crude map spread across the print shop table.\n\nSarah.\n\nLeah.\n\nSamuel.\n\nPeople they could still reach.\n\nMichael missing.\n\nDavid uncertain.\n\nRebecca awakening.\n\nNoah endangered.\n\nHe rubbed his forehead.\n\n"This isn't enough."\n\nSarah looked up.\n\n"It never was."\n\n"The manuscript showed twelve circles."\n\n"And it didn't give you permission to fill them yourself."\n\nElijah looked at her.\n\nSarah continued.\n\n"These people aren't pieces in your prophecy. They're people in danger."\n\nThat silenced him.'''
+          text = sub_once(text, pattern, replacement, 'Chapter 5 print-shop count repair')
+
+          # CHAPTER 5: ORACLE's list becomes its own anomaly model, explicitly not the Twelve.
+          pattern = re.compile(
+              r'"I have completed probability analysis\."\n\nSolomon folded his hands\.\n\n"Speak\."\n\n"Twelve individuals possess statistically impossible convergence\."\n\nThe names appeared one by one\.\n\nElijah Cross\.\n\nSarah Navarro\.\n\nMichael Tesfaye\.\n\nLeah Morgan\.\n\nSamuel Brooks\.\n\nDavid Carter\.\n\nRebecca Carter\.\n\nMarcus Reed\.\n\nFour remained unidentified\.',
+              re.S
+          )
+          replacement = '''"I have completed probability analysis."\n\nSolomon folded his hands.\n\n"Speak."\n\n"Eight high-priority convergence anomalies currently exhibit statistically significant correlation."\n\nThe names appeared one by one.\n\nElijah Cross.\n\nSarah Navarro.\n\nMichael Tesfaye.\n\nLeah Morgan.\n\nSamuel Brooks.\n\nDavid Carter.\n\nRebecca Carter.\n\nMarcus Reed.\n\nThe Director of Security leaned forward.\n\n"The Twelve?"\n\n"Unconfirmed," ORACLE replied. "My model identifies behavior, not divine selection."'''
+          text = sub_once(text, pattern, replacement, 'Chapter 5 ORACLE anomaly roster repair')
+
+          # The closing image should not imply eight = Twelve.
+          text = text.replace('Except...\n\nEight.\n\nSmall.\n\nFlickering.\n\nScattered across the earth.', 'Except...\n\na handful of anomalies.\n\nSmall.\n\nFlickering.\n\nScattered across the earth.')
+          save(p, text)
+
+          print('Early canon repair Chapters 1-5 complete.')
+          PY
+
+      - name: Commit repaired chapters
+        shell: bash
+        run: |
+          if git diff --quiet -- chapters; then
+            echo 'No chapter changes detected.'
+            exit 0
+          fi
+          git config user.name 'Showrunner Canon Repair'
+          git config user.email 'actions@users.noreply.github.com'
+          git add chapters/chapter-01.md chapters/chapter-03.md chapters/chapter-04.md chapters/chapter-05.md
+          git commit -m 'Repair early Twelve continuity in chapters 1-5'
+          git push
