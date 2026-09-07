@@ -266,7 +266,7 @@ Crossed that out too.
 
 Finally he wrote nothing.
 
-Ruth Okafor watched from across the room.
+Esther Okafor watched from across the room.
 
 She smiled.
 

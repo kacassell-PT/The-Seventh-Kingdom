@@ -748,7 +748,7 @@ Nathaniel said:
 
 "If a government has to say that before displaying tiers, it probably does."
 
-Ruth Okafor smiled.
+Esther Okafor smiled.
 
 "Historian."
 

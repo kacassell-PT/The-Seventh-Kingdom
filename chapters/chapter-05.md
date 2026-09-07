@@ -278,7 +278,7 @@ The laughter disappeared.
 
 ---
 
-On the opposite side of the table sat Dr. Miriam Kaine.
+On the opposite side of the table sat Miriam Kaine.
 
 Chief Architect of Human Continuity.
 
