@@ -2,21 +2,17 @@
 
 ## The Crossing
 
-*
+> **From *The Testament of Light* — Fragment XI**
+>
+> *The first crossing is never over water.*
+>
+> *It is over distrust.*
+>
+> *Many will step into the river.*
+>
+> *Few will leave the opposite bank as brothers.*
 
-From
-
-The Testament of Light
-
- - Fragment XI
-
-The first crossing is never over water.
-
-It is over distrust.
-
-Many will step into the river.
-
-Few will leave the opposite bank as brothers.
+---
 
 The water should have been cold.
 
@@ -386,7 +382,7 @@ Because they were true.
 
 Far beneath Geneva...
 
-Director Kaine entered Solomon's office carrying a sealed report.
+Miriam Kaine entered Solomon's office carrying a sealed security report.
 
 "We recovered fragments from Operation Jericho."
 
@@ -416,7 +412,7 @@ Solomon nodded.
 
 "Then why destroy it?"
 
-He looked toward the photograph of his daughter.
+He looked toward the sealed report.
 
 "Because ideas survive longer than armies."
 

@@ -2,21 +2,17 @@
 
 ## The Archivist
 
-*
+> **From *The Testament of Light* — Fragment XV**
+>
+> *Empires do not fear swords as much as they fear memory.*
+>
+> *Destroy a witness and another may arise.*
+>
+> *Destroy memory...*
+>
+> *...and generations forget there was ever a witness.*
 
-From
-
-The Testament of Light
-
- - Fragment XV
-
-Empires do not fear swords as much as they fear memory.
-
-Destroy a witness and another may arise.
-
-Destroy memory...
-
-...and generations forget there was ever a witness.
+---
 
 Nathaniel Cole did not sleep.
 

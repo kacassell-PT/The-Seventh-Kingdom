@@ -1,8 +1,8 @@
 # CHAPTER SEVENTEEN
 
-## The Physician
+## The Healer
 
-> **From *The Testament of Light* – Fragment XVII**
+> **From *The Testament of Light* — Fragment XVII**
 >
 > *The healer will discover that curing the body is easier than healing the soul.*
 >
@@ -402,9 +402,9 @@ one of its chief architects wondered whether humanity had confused postponing de
 
 with defeating it.
 
-## Epilogue
+---
 
-That night, hundreds of miles away, The Testament of Light slowly revealed another line beneath the names of the first four.
+That night, far away, *The Testament of Light* slowly revealed another line beneath the names of the first four.
 
 No name appeared.
 

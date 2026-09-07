@@ -2,19 +2,15 @@
 
 ## The Hunters
 
-*
+> **From *The Testament of Light* — Fragment XII**
+>
+> *The wolf announces himself with hunger.*
+>
+> *The hunter announces himself with silence.*
+>
+> *Discernment is learning the difference.*
 
-From
-
-The Testament of Light
-
- - Fragment XII
-
-The wolf announces himself with hunger.
-
-The hunter announces himself with silence.
-
-Discernment is learning the difference.
+---
 
 Marcus Reed raised one finger.
 

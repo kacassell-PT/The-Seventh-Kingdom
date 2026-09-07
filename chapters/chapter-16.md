@@ -2,19 +2,17 @@
 
 ## The Kingdom That Cannot Be Engineered
 
-From
+> **From *The Testament of Light* — Fragment XVI**
+>
+> *The Builder will ask how the Kingdom is made.*
+>
+> *The Shepherd will answer with silence before words.*
+>
+> *For kingdoms built by men begin with plans.*
+>
+> *The Kingdom of Heaven begins with surrender.*
 
-The Testament of Light
-
- - Fragment XVI
-
-The Builder will ask how the Kingdom is made.
-
-The Shepherd will answer with silence before words.
-
-For kingdoms built by men begin with plans.
-
-The Kingdom of Heaven begins with surrender.
+---
 
 Morning came slowly.
 

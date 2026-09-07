@@ -2,17 +2,15 @@
 
 ## The Choice
 
-From
+> **From *The Testament of Light* — Fragment XIII**
+>
+> *There comes a day when obedience and loyalty become different roads.*
+>
+> *On that day, every kingdom asks the same question:*
+>
+> *Who is your king?*
 
-The Testament of Light
-
- - Fragment XIII
-
-There comes a day when obedience and loyalty become different roads.
-
-On that day, every kingdom asks the same question:
-
-Who is your king?
+---
 
 The gunshot rolled across the valley.
 

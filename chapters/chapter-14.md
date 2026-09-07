@@ -2,19 +2,15 @@
 
 ## The Fourth Name
 
-*
+> **From *The Testament of Light* — Fragment XIV**
+>
+> *Power always builds its throne in the city.*
+>
+> *The Kingdom always begins at the table.*
+>
+> *Beware the one who still has access to both.*
 
-From
-
-The Testament of Light
-
- - Fragment XIV
-
-Power always builds its throne in the city.
-
-The Kingdom always begins at the table.
-
-Beware the one who still has access to both.
+---
 
 Washington had become a museum.
 
@@ -486,7 +482,7 @@ He smiled just enough to soften the years between them.
 
 Far beneath Geneva, Solomon Vey reviewed the day's anomaly report.
 
-Eight identified names.
+Eight high-priority convergence anomalies.
 
 One compromised retrieval captain.
 
