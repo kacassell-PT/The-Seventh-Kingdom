@@ -1,17 +1,18 @@
 # CHAPTER SIX
-The Shepherd
 
-From The Testament of Light – Fragment VI
+## The Shepherd
 
-The Shepherd cannot carry both the staff and the sword.
-
-One gathers the flock.
-
-The other scatters it.
-
-The Kingdom will choose shepherds.
-
-The kingdoms of men will always choose soldiers.
+> **From *The Testament of Light* — Fragment VI**
+>
+> *The Shepherd cannot carry both the staff and the sword.*
+>
+> *One gathers the flock.*
+>
+> *The other scatters it.*
+>
+> *The Kingdom will choose shepherds.*
+>
+> *The kingdoms of men will always choose soldiers.*
 
 The mountains remembered things that cities forgot.
 
@@ -353,7 +354,7 @@ he murmured.
 
 "You finally came."
 
-Eight hundred miles away, inside the abandoned print shop, Leah Morgan nearly fell backward out of her chair.
+Far to the east, inside the abandoned print shop, Leah Morgan nearly fell backward out of her chair.
 
 "I found him."
 

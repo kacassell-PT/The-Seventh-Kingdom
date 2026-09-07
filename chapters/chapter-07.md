@@ -2,7 +2,7 @@
 
 ## The Road West
 
-> **From *The Testament of Light* – Fragment VII**
+> **From *The Testament of Light* — Fragment VII**
 >
 > *The Kingdom is seldom found by those who seek power.*
 >
@@ -56,7 +56,7 @@ He glanced toward the rearview mirror.
 
 ---
 
-Three thousand miles away, Marcus Reed moved through the timberline with the deliberate pace of a man who had learned that speed was rarely the same thing as survival.
+Far to the west, Marcus Reed moved through the timberline with the deliberate pace of a man who had learned that speed was rarely the same thing as survival.
 
 The shepherd's staff felt awkward in his hands.
 

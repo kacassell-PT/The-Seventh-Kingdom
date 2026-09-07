@@ -2,17 +2,13 @@
 
 ## Living Water
 
-From
-
-The Testament of Light
-
- - Fragment X
-
-The river does not ask the mountain where it has been.
-
-It simply receives what the mountain is willing to surrender.
-
-So it is with brothers.
+> **From *The Testament of Light* — Fragment X**
+>
+> *The river does not ask the mountain where it has been.*
+>
+> *It simply receives what the mountain is willing to surrender.*
+>
+> *So it is with brothers.*
 
 The first sound was not the drone.
 
@@ -552,7 +548,7 @@ The first drone accelerated.
 
 Not toward Marcus.
 
-Toward Noah's carved stone.
+Toward the carved stone.
 
 Toward the place where the words had appeared.
 

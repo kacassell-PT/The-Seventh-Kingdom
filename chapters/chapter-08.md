@@ -2,7 +2,7 @@
 
 ## The Builder
 
-> **From *****The Testament of Light***** – Fragment VIII**
+> **From *The Testament of Light* — Fragment VIII**
 >
 > *The Builder believed he was raising a city.*
 >
@@ -148,7 +148,7 @@ Elijah looked out the windshield.
 
 "I told myself we were helping."
 
-"Weren't you?" Rebecca's name had come up so often that Sarah unconsciously asked the question in her voice.
+"Weren't you?" Sarah asked.
 
 He answered slowly.
 

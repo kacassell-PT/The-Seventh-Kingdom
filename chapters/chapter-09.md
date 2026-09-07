@@ -2,19 +2,15 @@
 
 ## The Valley Between
 
-From
-
-The Testament of Light
-
- - Fragment IX
-
-The Shepherd will see the Builder before the Builder sees the Shepherd.
-
-Both will believe the other is danger.
-
-The enemy will encourage that belief.
-
-Discernment begins where fear refuses to make the final decision.
+> **From *The Testament of Light* — Fragment IX**
+>
+> *The Shepherd will see the Builder before the Builder sees the Shepherd.*
+>
+> *Both will believe the other is danger.*
+>
+> *The enemy will encourage that belief.*
+>
+> *Discernment begins where fear refuses to make the final decision.*
 
 Morning arrived quietly.
 
