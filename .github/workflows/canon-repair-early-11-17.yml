@@ -1,0 +1,113 @@
+name: Early Canon Repair Chapters 11-17
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/canon-repair-early-11-17.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Repair chapters 11-17
+        shell: python
+        run: |
+          from pathlib import Path
+
+          def replace_required(path, old, new):
+              p = Path(path)
+              text = p.read_text(encoding='utf-8')
+              if old not in text:
+                  raise SystemExit(f'Expected text not found in {path}: {old[:100]!r}')
+              text = text.replace(old, new)
+              p.write_text(text, encoding='utf-8')
+
+          def standardize_fragment(path, roman):
+              p = Path(path)
+              text = p.read_text(encoding='utf-8')
+              marker = f' - Fragment {roman}'
+              if marker not in text:
+                  return
+              before, after = text.split(marker, 1)
+              # Remove legacy standalone asterisk and split heading immediately before marker.
+              legacy = '*\n\nFrom\n\nThe Testament of Light\n\n'
+              plain = 'From\n\nThe Testament of Light\n\n'
+              if before.endswith(legacy):
+                  before = before[:-len(legacy)]
+              elif before.endswith(plain):
+                  before = before[:-len(plain)]
+              else:
+                  return
+              # Convert the fragment body up to the first narrative paragraph into blockquote italics.
+              # Fragment bodies here are short and end before known narrative starts.
+              narrative_starts = {
+                  'XI':'The water should have been cold.',
+                  'XII':'Marcus Reed raised one finger.',
+                  'XIII':'The gunshot rolled across the valley.',
+                  'XIV':'Washington had become a museum.',
+                  'XV':'Nathaniel Cole did not sleep.',
+                  'XVI':'Morning came slowly.',
+              }
+              start = narrative_starts[roman]
+              if start not in after:
+                  raise SystemExit(f'Narrative start not found in {path}')
+              frag, narrative = after.split(start,1)
+              lines = [x.strip() for x in frag.strip().split('\n') if x.strip()]
+              quote = f'> **From *The Testament of Light* — Fragment {roman}**\n>\n'
+              quote += '\n>\n'.join(f'> *{line}*' for line in lines)
+              text = before + quote + '\n\n---\n\n' + start + narrative
+              p.write_text(text, encoding='utf-8')
+
+          for n, roman in [(11,'XI'),(12,'XII'),(13,'XIII'),(14,'XIV'),(15,'XV'),(16,'XVI')]:
+              standardize_fragment(f'chapters/chapter-{n:02d}.md', roman)
+
+          # Chapter 11: preserve Miriam as a security/Consensus architect, not biomedical director.
+          replace_required('chapters/chapter-11.md',
+              'Far beneath Geneva...\n\nDirector Kaine entered Solomon\'s office carrying a sealed report.',
+              'Far beneath Geneva...\n\nMiriam Kaine entered Solomon\'s office carrying a sealed security report.')
+          replace_required('chapters/chapter-11.md',
+              'He looked toward the photograph of his daughter.',
+              'He looked toward the sealed report.')
+
+          # Chapter 14: distinguish ORACLE anomaly tracking from Testament-confirmed names.
+          replace_required('chapters/chapter-14.md',
+              'Eight identified names.\n\nOne compromised retrieval captain.\n\nOne unexplained river event.\n\nOne historical archive delay.',
+              'Eight high-priority convergence anomalies.\n\nOne compromised retrieval captain.\n\nOne unexplained river event.\n\nOne historical archive delay.')
+
+          # Chapter 17: reserve The Physician for Gabriel's later acceptance of the calling in Chapter 25.
+          replace_required('chapters/chapter-17.md', '## The Physician', '## The Healer')
+          replace_required('chapters/chapter-17.md',
+              '> **From *The Testament of Light* – Fragment XVII**',
+              '> **From *The Testament of Light* — Fragment XVII**')
+          replace_required('chapters/chapter-17.md',
+              '## Epilogue\n\nThat night, hundreds of miles away, The Testament of Light slowly revealed another line beneath the names of the first four.',
+              '---\n\nThat night, far away, *The Testament of Light* slowly revealed another line beneath the names of the first four.')
+
+          # Keep compatibility manuscript copies synchronized where they exist.
+          for n in range(11,18):
+              src = Path(f'chapters/chapter-{n:02d}.md')
+              for dest in [
+                  Path(f'books/book-01-the-fifth-remnant/manuscript/chapter-{n:02d}.md'),
+                  Path(f'books/book-01/chapters/chapter-{n:02d}.md')
+              ]:
+                  if dest.exists():
+                      dest.write_text(src.read_text(encoding='utf-8'), encoding='utf-8')
+
+      - name: Commit repairs
+        run: |
+          git config user.name "Showrunner Canon Repair"
+          git config user.email "actions@users.noreply.github.com"
+          git add chapters/chapter-{11..17}.md books/book-01-the-fifth-remnant/manuscript/ books/book-01/chapters/ || true
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Canon repair chapters 11-17"
+            git push
+          fi
