@@ -1,0 +1,54 @@
+name: Canon Review Fixes Chapters 6-10
+
+on:
+  push:
+    paths:
+      - '.github/workflows/canon-repair-review-6-10.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Apply verified canon fixes
+        shell: python
+        run: |
+          from pathlib import Path
+
+          def replace(path, old, new):
+              p = Path(path)
+              text = p.read_text()
+              if old not in text:
+                  raise SystemExit(f'Expected text not found in {path}: {old[:80]!r}')
+              p.write_text(text.replace(old, new, 1))
+
+          replace('chapters/chapter-06.md',
+          '# CHAPTER SIX\nThe Shepherd\n\nFrom The Testament of Light – Fragment VI\n\nThe Shepherd cannot carry both the staff and the sword.\n\nOne gathers the flock.\n\nThe other scatters it.\n\nThe Kingdom will choose shepherds.\n\nThe kingdoms of men will always choose soldiers.',
+          '# CHAPTER SIX\n\n## The Shepherd\n\n> **From *The Testament of Light* — Fragment VI**\n>\n> *The Shepherd cannot carry both the staff and the sword.*\n>\n> *One gathers the flock.*\n>\n> *The other scatters it.*\n>\n> *The Kingdom will choose shepherds.*\n>\n> *The kingdoms of men will always choose soldiers.*')
+          replace('chapters/chapter-06.md', 'Eight hundred miles away, inside the abandoned print shop,', 'Far to the east, inside the abandoned print shop,')
+
+          replace('chapters/chapter-07.md', '> **From *The Testament of Light* – Fragment VII**', '> **From *The Testament of Light* — Fragment VII**')
+          replace('chapters/chapter-07.md', 'Three thousand miles away, Marcus Reed moved through the timberline', 'Far to the west, Marcus Reed moved through the timberline')
+
+          replace('chapters/chapter-08.md', '> **From *****The Testament of Light***** – Fragment VIII**', '> **From *The Testament of Light* — Fragment VIII**')
+          replace('chapters/chapter-08.md', '"Weren\'t you?" Rebecca\'s name had come up so often that Sarah unconsciously asked the question in her voice.', '"Weren\'t you?" Sarah asked.')
+
+          replace('chapters/chapter-09.md',
+          'From\n\nThe Testament of Light\n\n - Fragment IX\n\nThe Shepherd will see the Builder before the Builder sees the Shepherd.\n\nBoth will believe the other is danger.\n\nThe enemy will encourage that belief.\n\nDiscernment begins where fear refuses to make the final decision.',
+          '> **From *The Testament of Light* — Fragment IX**\n>\n> *The Shepherd will see the Builder before the Builder sees the Shepherd.*\n>\n> *Both will believe the other is danger.*\n>\n> *The enemy will encourage that belief.*\n>\n> *Discernment begins where fear refuses to make the final decision.*')
+
+          replace('chapters/chapter-10.md',
+          'From\n\nThe Testament of Light\n\n - Fragment X\n\nThe river does not ask the mountain where it has been.\n\nIt simply receives what the mountain is willing to surrender.\n\nSo it is with brothers.',
+          '> **From *The Testament of Light* — Fragment X**\n>\n> *The river does not ask the mountain where it has been.*\n>\n> *It simply receives what the mountain is willing to surrender.*\n>\n> *So it is with brothers.*')
+          replace('chapters/chapter-10.md', "Toward Noah's carved stone.", 'Toward the carved stone.')
+
+      - name: Commit repairs
+        run: |
+          git config user.name "Karl Cassell"
+          git config user.email "kacassell@gmail.com"
+          git add chapters/chapter-06.md chapters/chapter-07.md chapters/chapter-08.md chapters/chapter-09.md chapters/chapter-10.md
+          git commit -m "Canon repair chapters 6-10" || exit 0
+          git push
