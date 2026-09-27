@@ -1,0 +1,33 @@
+name: Export Book One Canon Chapters
+on:
+  push:
+    paths:
+      - '.github/workflows/export-book-one-canon.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate canon chapter set
+        shell: python
+        run: |
+          from pathlib import Path
+          missing=[]
+          for i in range(1,41):
+              p=Path(f"chapters/chapter-{i:02d}.md")
+              if not p.exists(): missing.append(str(p))
+          if missing: raise SystemExit("Missing: "+", ".join(missing))
+          print("Validated 40 canonical chapter files.")
+      - name: Stage canon source
+        run: |
+          mkdir -p export/chapters
+          cp chapters/chapter-{01..40}.md export/chapters/
+          cp BOOK-ONE-CANON-AUDIT.md export/ 2>/dev/null || true
+      - uses: actions/upload-artifact@v4
+        with:
+          name: book-one-canon-chapters
+          path: export/
+          if-no-files-found: error
